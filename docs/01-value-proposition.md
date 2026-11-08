@@ -20,9 +20,7 @@ Um diese Beobachtungen zu überprüfen, haben wir zusätzlich eine anonyme Onlin
 - Erhebungsdatum: 08.11.2026
 - Zielgruppe: Studierende der HWR Berlin
 
-**Ergebnisse**
-Die Umfrage lieferte folgende Erkenntnisse:
-
+**Die Umfrage lieferte folgende Erkenntnisse:**
 - ***Nachhilfe:*** 30 % wussten bei der Suche nach Lernunterstützung nicht, wo sie suchen sollten.
 - ***Community:*** 30 % empfanden es als eher oder sehr schwierig, relevante studentische Gruppen oder Kontakte zu finden.
 - ***Studien-Guides:*** 42,5 % nannten Praktika, 40 % die Prüfungsvorbereitung und 35 % die Bachelorarbeit als Themen mit Informationsbedarf.
