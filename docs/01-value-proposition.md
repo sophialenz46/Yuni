@@ -9,7 +9,30 @@ Unsere Plattform richtet sich an Studierende der Hochschule für Wirtschaft und 
 Zur Nachfrageseite gehören Studierende aller Semester, insbesondere Erstsemester, die Unterstützung bei ihrem Studium benötigen. Gerade zu Beginn des Studiums fällt es vielen Studenten schwer, sich im Hochschulalltag zurechtzufinden sowie geeignete Nachhilfe zu finden, die genau den Anforderungen des Moduls entsprechen. Die Idee ist, dass Studenten aus höheren Semestern die Nachhilfe in diesen Modulen anbieten. Es entsteht ein Austausch zwischen den Studenten aus der derselben Hochschule.
 
 #### Need Identification 
-Da wir selbst an der HWR studieren, kennen wir die Herausforderungen Nachhilfe oder WhatsApp-Gruppen zu finden sowie erste Guides zu Studienthemen wie das Praktikum oder die Bachelorarbeit, aus eigener Erfahrung. Auch durch den Austausch mit anderen Studierenden haben wir festgestellt, dass ähnliche Probleme immer wieder auftreten. Unsere Plattform basiert daher auf Bedürfnissen, die wir selbst erlebt und in unserem studentischen Umfeld wahrgenommen haben.
+Da wir selbst an der HWR Berlin studieren, kennen wir aus eigener Erfahrung die Schwierigkeiten, passende Nachhilfe, relevante WhatsApp-Gruppen oder hilfreiche Informationen zu Studienthemen wie Praktikum und Bachelorarbeit zu finden. Auch durch den Austausch mit anderen Studierenden haben wir festgestellt, dass ähnliche Probleme immer wieder auftreten.
+
+Um diese Beobachtungen zu überprüfen, haben wir zusätzlich eine anonyme Online-Umfrage unter 40 Studierenden der HWR Berlin durchgeführt.
+
+**Methodik**
+- Online-Umfrage über Google Forms
+- 40 Teilnehmende
+- Freiwillige und anonyme Teilnahme
+- Erhebungsdatum: 08.11.2026
+- Zielgruppe: Studierende der HWR Berlin
+
+**Ergebnisse**
+Die Umfrage lieferte folgende Erkenntnisse:
+
+- ***Nachhilfe:*** 30 % wussten bei der Suche nach Lernunterstützung nicht, wo sie suchen sollten.
+- ***Community:** 30 % empfanden es als eher oder sehr schwierig, relevante studentische Gruppen oder Kontakte zu finden.
+- Studien-Guides: 42,5 % nannten Praktika, 40 % die Prüfungsvorbereitung und 35 % die Bachelorarbeit als Themen mit Informationsbedarf.
+- Plattformfunktionen: Jeweils 27,5 % wählten das Finden studentischer Gruppen beziehungsweise das Community-Forum als hilfreichste Funktion. 15 % bevorzugten die Nachhilfesuche und 12,5 % Studien-Guides.
+
+**Schlussfolgerungen für Yuni**
+
+Die Ergebnisse zeigen insbesondere Interesse an studentischer Vernetzung und zentral verfügbaren Informationen. Gleichzeitig bestehen Herausforderungen bei der Suche nach Lernunterstützung. Diese Erkenntnisse unterstützen unsere Entscheidung, Yuni auf drei Kernbereiche auszurichten: **Nachhilfevermittlung**, **Studien-Guides** und **Community-Funktionen**.
+
+
 
 ### Supply Side: Studierende, die Unterstützung anbieten
 Zur Angebotsseite gehören Studierende der HWR, die bereits Erfahrungen im Studium gesammelt haben und ihr Wissen mit anderen teilen möchten. Diese Studierenden können beispielsweise Nachhilfe in Modulen anbieten, Fragen beantworten oder hilfreiche Erfahrungen und Informationen weitergeben. Gleichzeitig bietet die Plattform die Möglichkeit für Studenten neben dem Studium Geld zu verdienen.
