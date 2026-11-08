@@ -24,9 +24,9 @@ Um diese Beobachtungen zu überprüfen, haben wir zusätzlich eine anonyme Onlin
 Die Umfrage lieferte folgende Erkenntnisse:
 
 - ***Nachhilfe:*** 30 % wussten bei der Suche nach Lernunterstützung nicht, wo sie suchen sollten.
-- ***Community:** 30 % empfanden es als eher oder sehr schwierig, relevante studentische Gruppen oder Kontakte zu finden.
-- Studien-Guides: 42,5 % nannten Praktika, 40 % die Prüfungsvorbereitung und 35 % die Bachelorarbeit als Themen mit Informationsbedarf.
-- Plattformfunktionen: Jeweils 27,5 % wählten das Finden studentischer Gruppen beziehungsweise das Community-Forum als hilfreichste Funktion. 15 % bevorzugten die Nachhilfesuche und 12,5 % Studien-Guides.
+- ***Community:*** 30 % empfanden es als eher oder sehr schwierig, relevante studentische Gruppen oder Kontakte zu finden.
+- ***Studien-Guides:*** 42,5 % nannten Praktika, 40 % die Prüfungsvorbereitung und 35 % die Bachelorarbeit als Themen mit Informationsbedarf.
+- ***Plattformfunktionen:*** Jeweils 27,5 % wählten das Finden studentischer Gruppen beziehungsweise das Community-Forum als hilfreichste Funktion. 15 % bevorzugten die Nachhilfesuche und 12,5 % Studien-Guides.
 
 **Schlussfolgerungen für Yuni**
 
