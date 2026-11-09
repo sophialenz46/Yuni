@@ -60,7 +60,7 @@ Nach der Anmeldung gelangen Studierende auf ihre personalisierte Startseite. Von
 
 ![Yuni Startseite](./assets/images/ScreenWelcome.jpeg)
 
-## 3.Nachhilfe finden:
+## 3. Nachhilfe finden:
 Studierende können nach passenden Nachhilfeangeboten suchen und diese nach Studiengang, Modul, Lernformat und Preis filtern. Die verfügbaren Angebote werden übersichtlich dargestellt und können favorisiert werden. 
 
 ![Yuni Nachhilfe suchen](./assets/images/ScreenNachhilfeFinden.jpeg)
