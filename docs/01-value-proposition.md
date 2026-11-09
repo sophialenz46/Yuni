@@ -55,7 +55,7 @@ Die Startseite stellt die Plattform Yuni und ihre drei Kernfunktionen vor: Nachh
 
 ![Yuni Startseite](./assets/images/ScreenStartseite.jpeg)
 
-## 2. Startseite/Willkommensseite (nach Anmeldung/Registrierung: 
+## 2. Willkommensseite (nach Anmeldung/Registrierung): 
 Nach der Anmeldung gelangen Studierende auf ihre personalisierte Startseite. Von hier aus können sie direkt auf die Bereiche Nachhilfe, Studien-Guides und Community zugreifen.
 
 ![Yuni Startseite](./assets/images/ScreenWelcome.jpeg)
