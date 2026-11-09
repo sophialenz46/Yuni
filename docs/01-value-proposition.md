@@ -50,36 +50,36 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 
 # Initial Target Scope
 
-##1. Startseite (vor Anmeldung/Registrierung):
-###Die Startseite stellt die Plattform Yuni und ihre drei Kernfunktionen vor: Nachhilfe, Studien-Guides und Community. Studierende können sich hier mit ihrer Hochschul-Email-Adresse registrieren oder anmelden. 
+## 1. Startseite (vor Anmeldung/Registrierung):
+### Die Startseite stellt die Plattform Yuni und ihre drei Kernfunktionen vor: Nachhilfe, Studien-Guides und Community. Studierende können sich hier mit ihrer Hochschul-Email-Adresse registrieren oder anmelden. 
 ![Yuni Startseite](./assets/images/ScreenStartseite.jpeg)
 
-##2. Startseite/Willkommensseite (nach Anmeldung/Registrierung: 
-###Nach der Anmeldung gelangen Studierende auf ihre personalisierte Startseite. Von hier aus können sie direkt auf die Bereiche Nachhilfe, Studien-Guides und Community zugreifen.
+## 2. Startseite/Willkommensseite (nach Anmeldung/Registrierung: 
+### Nach der Anmeldung gelangen Studierende auf ihre personalisierte Startseite. Von hier aus können sie direkt auf die Bereiche Nachhilfe, Studien-Guides und Community zugreifen.
 ![Yuni Startseite](./assets/images/ScreenWelcome.jpeg)
 
-##3.Nachhilfe finden:
-###Studierende können nach passenden Nachhilfeangeboten suchen und diese nach Studiengang, Modul, Lernformat und Preis filtern. Die verfügbaren Angebote werden übersichtlich dargestellt und können favorisiert werden. 
+## 3.Nachhilfe finden:
+### Studierende können nach passenden Nachhilfeangeboten suchen und diese nach Studiengang, Modul, Lernformat und Preis filtern. Die verfügbaren Angebote werden übersichtlich dargestellt und können favorisiert werden. 
 ![Yuni Nachhilfe suchen](./assets/images/ScreenNachhilfeFinden.jpeg)
 
-##4. Nachhilfe anbieten: 
-###Studierende können auch eigene Nachhilfeangebote erstellen und veröffentlichen. Dafür geben sie unter anderem das Modul, Lernformat, Stundenpreis und eine Beschreibung an. 
+## 4. Nachhilfe anbieten: 
+### Studierende können auch eigene Nachhilfeangebote erstellen und veröffentlichen. Dafür geben sie unter anderem das Modul, Lernformat, Stundenpreis und eine Beschreibung an. 
 ![Yuni Nachhilfe anbieten](./assets/images/ScreenNachhilfeAnbieten.jpeg)
 
-##5. Guides: 
-###Die Guides bieten strukturierte Informationen, Checklisten und praktische Orientierungshilfen für verschiedene Studienphasen. Im Gegensatz zur interaktiven Community stehen hier __fertig aufbereitete Informationsmaterialien__ im Vordergrund, die eingesehen und als PDF heruntergeladen werden können.
+## 5. Guides: 
+### Die Guides bieten strukturierte Informationen, Checklisten und praktische Orientierungshilfen für verschiedene Studienphasen. Im Gegensatz zur interaktiven Community stehen hier __fertig aufbereitete Informationsmaterialien__ im Vordergrund, die eingesehen und als PDF heruntergeladen werden können.
 ![Yuni GuidesScreen](./assets/images/ScreenGuides.jpeg)
 
-##6. Community - Gruppen-Links:
+## 6. Community - Gruppen-Links:
 ###Im Community-Bereich können Studierende passende WhatsApp-Gruppen für ihren Studiengang oder einzelne Module entdecken. Zusätzlich können sie eigene Gruppen-Links teilen und interessante Gruppen als Favoriten speichern. 
 ![Yuni CommunityScreen1](./assets/images/ScreenCommunity1.jpeg)
 
-##7. Community - Forum:
-###Das Community Forum ermöglicht Studierenden, Fragen und Anliegen zu teilen und sich über studienbezognene Themen auszutauschen. Bestehende Diskussionen können eingesehen und interessante Beiträge als Favoriten gespeichert werden. 
+## 7. Community - Forum:
+### Das Community Forum ermöglicht Studierenden, Fragen und Anliegen zu teilen und sich über studienbezognene Themen auszutauschen. Bestehende Diskussionen können eingesehen und interessante Beiträge als Favoriten gespeichert werden. 
 ![Yuni CommunityScreen2](./assets/images/ScreenCommunity2.jpeg)
 
-##9. Mein Profil: 
-##Im persönlichen Profil können Studierende ihre Kontoinformationen einsehen, Einstellungen verwalten und sich abmelden. Außerdem werden hier gespeicherte Nachhilfe Angebote und Community-Beiträge gesammelt angezeigt. 
+## 9. Mein Profil: 
+### Im persönlichen Profil können Studierende ihre Kontoinformationen einsehen, Einstellungen verwalten und sich abmelden. Außerdem werden hier gespeicherte Nachhilfe Angebote und Community-Beiträge gesammelt angezeigt. 
 ![Yuni MeinProfil](./assets/images/ScreenMeinProfil.jpeg)
 
 **Hinweis:** Der erste UI-Entwurf wurde mit Proto.io erstellt und im Nachhinein mit KI überarbeitet. Siehe AI Directory Seynabou-Mbaye.md.
