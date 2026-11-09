@@ -8,9 +8,6 @@ Unsere Plattform richtet sich an Studierende der Hochschule für Wirtschaft und 
 ### Demand Side: Studierende, die Unterstüzung suchen
 Zur Nachfrageseite gehören Studierende aller Semester, insbesondere Erstsemester, die Unterstützung bei ihrem Studium benötigen. Gerade zu Beginn des Studiums fällt es vielen Studenten schwer, sich im Hochschulalltag zurechtzufinden sowie geeignete Nachhilfe zu finden, die genau den Anforderungen des Moduls entsprechen. Die Idee ist, dass Studenten aus höheren Semestern die Nachhilfe in diesen Modulen anbieten. Es entsteht ein Austausch zwischen den Studenten aus der derselben Hochschule.
 
-#### Need Identification 
-Da wir selbst an der HWR Berlin studieren, kennen wir aus eigener Erfahrung die Schwierigkeiten, passende Nachhilfe, relevante WhatsApp-Gruppen oder hilfreiche Informationen zu Studienthemen wie Praktikum und Bachelorarbeit zu finden. Auch durch den Austausch mit anderen Studierenden haben wir festgestellt, dass ähnliche Probleme immer wieder auftreten.
-
 ### Supply Side: Studierende, die Unterstützung anbieten
 Zur Angebotsseite gehören Studierende der HWR, die bereits Erfahrungen im Studium gesammelt haben und ihr Wissen mit anderen teilen möchten. Diese Studierenden können beispielsweise Nachhilfe in Modulen anbieten, Fragen beantworten oder hilfreiche Erfahrungen und Informationen weitergeben. Gleichzeitig bietet die Plattform die Möglichkeit für Studenten neben dem Studium Geld zu verdienen.
 
