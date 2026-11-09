@@ -59,7 +59,8 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 ![Yuni CommunityScreen2](./assets/images/ScreenCommunity2.jpeg)
 ![Yuni MeinProfil](./assets/images/ScreenMeinProfil.jpeg)
 
-### Erster UI-Entwurf erstellt mit Proto.io (siehe Fotos im Ordner "images" unter "assets"). Dies ist eine mit KI überarbeitete neue Version. Link zur detaillierten Ansicht:
+
+**Hinweis:** Der erste UI-Entwurf wurde mit Proto.io erstellt und im Nachhinein mit KI überarbeitet. Siehe AI Directory Seynabou-Mbaye.md.
 
 
 
