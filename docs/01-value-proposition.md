@@ -79,7 +79,7 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 ![Yuni CommunityScreen2](./assets/images/ScreenCommunity2.jpeg)
 
 ## 9. Mein Profil: 
-### Im persönlichen Profil können Studierende ihre Kontoinformationen einsehen, Einstellungen verwalten und sich abmelden. Außerdem werden hier gespeicherte Nachhilfe Angebote und Community-Beiträge gesammelt angezeigt. 
+Im persönlichen Profil können Studierende ihre Kontoinformationen einsehen, Einstellungen verwalten und sich abmelden. Außerdem werden hier gespeicherte Nachhilfe Angebote und Community-Beiträge gesammelt angezeigt. 
 ![Yuni MeinProfil](./assets/images/ScreenMeinProfil.jpeg)
 
 **Hinweis:** Der erste UI-Entwurf wurde mit Proto.io erstellt und im Nachhinein mit KI überarbeitet. Siehe AI Directory Seynabou-Mbaye.md.
