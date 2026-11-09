@@ -11,28 +11,6 @@ Zur Nachfrageseite gehören Studierende aller Semester, insbesondere Erstsemeste
 #### Need Identification 
 Da wir selbst an der HWR Berlin studieren, kennen wir aus eigener Erfahrung die Schwierigkeiten, passende Nachhilfe, relevante WhatsApp-Gruppen oder hilfreiche Informationen zu Studienthemen wie Praktikum und Bachelorarbeit zu finden. Auch durch den Austausch mit anderen Studierenden haben wir festgestellt, dass ähnliche Probleme immer wieder auftreten.
 
-Um diese Beobachtungen zu überprüfen, haben wir zusätzlich eine anonyme Online-Umfrage unter 40 Studierenden der HWR Berlin durchgeführt.
-
-**Methodik**
-- Online-Umfrage über Google Forms
-- 40 Teilnehmende
-- Freiwillige und anonyme Teilnahme
-- Erhebungsdatum: 08.11.2026
-- Zielgruppe: Studierende der HWR Berlin
-- Die vollständigen Ergebnisse finden Sie hier: [📊 Umfrageergebnisse ansehen](assets/pdf/Yuni_Umfrage%20-%20Ergebnisse.pdf)
-
-**Die Umfrage lieferte folgende Erkenntnisse:**
-- ***Nachhilfe:*** 30 % wussten bei der Suche nach Lernunterstützung nicht, wo sie suchen sollten.
-- ***Community:*** 30 % empfanden es als eher oder sehr schwierig, relevante studentische Gruppen oder Kontakte zu finden.
-- ***Studien-Guides:*** 42,5 % nannten Praktika, 40 % die Prüfungsvorbereitung und 35 % die Bachelorarbeit als Themen mit Informationsbedarf.
-- ***Plattformfunktionen:*** Jeweils 27,5 % wählten das Finden studentischer Gruppen beziehungsweise das Community-Forum als hilfreichste Funktion. 15 % bevorzugten die Nachhilfesuche und 12,5 % Studien-Guides.
-
-**Schlussfolgerungen für Yuni**
-
-Die Ergebnisse zeigen insbesondere Interesse an studentischer Vernetzung und zentral verfügbaren Informationen. Gleichzeitig bestehen Herausforderungen bei der Suche nach Lernunterstützung. Diese Erkenntnisse unterstützen unsere Entscheidung, Yuni auf drei Kernbereiche auszurichten: **Nachhilfevermittlung**, **Studien-Guides** und **Community-Funktionen**.
-
-
-
 ### Supply Side: Studierende, die Unterstützung anbieten
 Zur Angebotsseite gehören Studierende der HWR, die bereits Erfahrungen im Studium gesammelt haben und ihr Wissen mit anderen teilen möchten. Diese Studierenden können beispielsweise Nachhilfe in Modulen anbieten, Fragen beantworten oder hilfreiche Erfahrungen und Informationen weitergeben. Gleichzeitig bietet die Plattform die Möglichkeit für Studenten neben dem Studium Geld zu verdienen.
 
