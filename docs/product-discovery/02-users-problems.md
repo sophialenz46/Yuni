@@ -2,8 +2,7 @@
 
 # Target Users + Problems
 
-## [Raw Material]
-
-[List / link / paste any material that you created or referenced while working on identifying your **target user(s)** and their core **problem(s)**. 
-
-Ideally, put any material that you created or collected in the folder `📁 docs/product-discovery/material/02-up/`, and link it on this page.]
+## Raw Material
+### 1. Target user(s) and their core problem(s)
+Zur Identifikation unserer Zielgruppe und ihrer zentralen Probleme wurde eine anonyme Online-Umfrage unter 40 Studierenden der HWR Berlin durchgeführt. Die Ergebnisse dienen als Grundlage für die Entwicklung der Kernfunktionen von Yuni.
+- [Dokumentation: Target user(s) and their core problem(s)](material/02-up/Target%20user(s)%20and%20their%20core%20problem(s).md)
