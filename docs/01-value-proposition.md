@@ -49,18 +49,21 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 6. Der Student kann sein Wissen weitergeben, andere Studierende unterstützen und gegebenenfalls durch die Nachhilfe Geld verdienen.
 
 # Initial Target Scope
-##### 1. UI-Entwurf erstellt mit Proto.io (siehe Fotos im Ordner "assets"). Dies ist eine mit KI überarbeitete neue Version. 
+## 1. UI-Entwurf erstellt mit Proto.io (siehe Fotos im Ordner "assets"). Dies ist eine mit KI überarbeitete neue Version. 
 
 ![Yuni Startseite](./assets/images/ScreenStartseite.jpeg)
-![Yuni Startseite](./assets/images/ScreenWelcome.png)
+![Yuni Startseite](./assets/images/ScreenWelcome.jpeg)
+![Yuni Nachhilfe suchen](./assets/images/ScreenNachhilfeFinden.jpeg)
+![Yuni Nachhilfe anbieten](./assets/images/ScreenNachhilfeAnbieten.jpeg)
+![Yuni GuidesScreen](./assets/images/ScreenGuides.jpeg)
+![Yuni CommunityScreen1](./assets/images/ScreenCommunity.jpeg)
+![Yuni CommunityScreen1](./assets/images/ScreenCommunity2.jpeg)
 
-![Yuni LoginScreen](./assets/images/LoginUndRegistrieren.jpg)
-![Yuni Home](./assets/images/Home.png)
-![Yuni GuidesScreen](./assets/images/GuidesScreen.PNG)
-![Yuni Nachhilfe suchen](./assets/images/NachhilfeSuchen.jpeg)
-![Yuni Nachhilfe anbieten](./assets/images/NachhilfeAnbieten.jpeg)
-![Yuni CommunityScreen1](./assets/images/CommunityScreen1.png)
-![Yuni CommunityScreen2](./assets/images/CommunityScreen2.png)
-![Yuni CommunityScreen3](./assets/images/CommunityScreen3.png)
-![Yuni Studien Guides](./assets/images/Studien-Guides.png)
+
+![Yuni MeinProfil](./assets/images/ScreenCommunity.jpeg)
+
+
+
+
+
 
