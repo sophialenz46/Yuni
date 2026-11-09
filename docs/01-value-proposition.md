@@ -51,7 +51,7 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 # Initial Target Scope
 ##### 1. UI-Entwurf erstellt mit Proto.io (siehe Fotos im Ordner "assets"). Dies ist eine mit KI überarbeitete neue Version. 
 
-![Yuni Startseite](./assets/images/ScreenStartseite.png)
+![Yuni Startseite](./assets/images/ScreenStartseite.jpeg)
 ![Yuni Startseite](./assets/images/ScreenWelcome.png)
 
 ![Yuni LoginScreen](./assets/images/LoginUndRegistrieren.jpg)
