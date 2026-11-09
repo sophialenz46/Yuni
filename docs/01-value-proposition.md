@@ -19,7 +19,7 @@ Um diese Beobachtungen zu überprüfen, haben wir zusätzlich eine anonyme Onlin
 - Freiwillige und anonyme Teilnahme
 - Erhebungsdatum: 08.11.2026
 - Zielgruppe: Studierende der HWR Berlin
-- Die vollständigen Ergebnisse findest Sie hier: [📊 Umfrageergebnisse ansehen](assets/pdf/Yuni_Umfrage%20-%20Ergebnisse.pdf)
+- Die vollständigen Ergebnisse finden Sie hier: [📊 Umfrageergebnisse ansehen](assets/pdf/Yuni_Umfrage%20-%20Ergebnisse.pdf)
 
 **Die Umfrage lieferte folgende Erkenntnisse:**
 - ***Nachhilfe:*** 30 % wussten bei der Suche nach Lernunterstützung nicht, wo sie suchen sollten.
