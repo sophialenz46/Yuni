@@ -49,7 +49,6 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 6. Der Student kann sein Wissen weitergeben, andere Studierende unterstützen und gegebenenfalls durch die Nachhilfe Geld verdienen.
 
 # Initial Target Scope
-## Link zur detaillierten Ansicht: 
 ![Yuni Startseite](./assets/images/ScreenStartseite.jpeg)
 ![Yuni Startseite](./assets/images/ScreenWelcome.jpeg)
 ![Yuni Nachhilfe suchen](./assets/images/ScreenNachhilfeFinden.jpeg)
