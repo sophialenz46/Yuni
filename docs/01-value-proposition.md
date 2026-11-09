@@ -49,18 +49,18 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 6. Der Student kann sein Wissen weitergeben, andere Studierende unterstützen und gegebenenfalls durch die Nachhilfe Geld verdienen.
 
 # Initial Target Scope
-## 1. UI-Entwurf erstellt mit Proto.io (siehe Fotos im Ordner "images" unter "assets"). Dies ist eine mit KI überarbeitete neue Version. 
-
+## Link zur detaillierten Ansicht: 
 ![Yuni Startseite](./assets/images/ScreenStartseite.jpeg)
 ![Yuni Startseite](./assets/images/ScreenWelcome.jpeg)
 ![Yuni Nachhilfe suchen](./assets/images/ScreenNachhilfeFinden.jpeg)
 ![Yuni Nachhilfe anbieten](./assets/images/ScreenNachhilfeAnbieten.jpeg)
 ![Yuni GuidesScreen](./assets/images/ScreenGuides.jpeg)
-![Yuni CommunityScreen1](./assets/images/ScreenCommunity.jpeg)
-![Yuni CommunityScreen1](./assets/images/ScreenCommunity2.jpeg)
+![Yuni CommunityScreen1](./assets/images/ScreenCommunity1.jpeg)
+![Yuni CommunityScreen2](./assets/images/ScreenCommunity2.jpeg)
 ![Yuni MeinProfil](./assets/images/ScreenMeinProfil.jpeg)
 
-
+### Erster UI-Entwurf erstellt mit Proto.io (siehe Fotos im Ordner "images" unter "assets"). Dies ist eine mit KI überarbeitete neue Version. 
+### Link zur detaillierten Ansicht:
 
 
 
