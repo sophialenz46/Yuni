@@ -58,9 +58,7 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 ![Yuni GuidesScreen](./assets/images/ScreenGuides.jpeg)
 ![Yuni CommunityScreen1](./assets/images/ScreenCommunity.jpeg)
 ![Yuni CommunityScreen1](./assets/images/ScreenCommunity2.jpeg)
-
-
-![Yuni MeinProfil](./assets/images/ScreenCommunity.jpeg)
+![Yuni MeinProfil](./assets/images/ScreenMeinProfil.jpeg)
 
 
 
