@@ -2,8 +2,8 @@
 
 # Contributors
 
-[List all team members like so:
+- [Amine Özdemir](Amine-Özdemir.md)
+- [Gizem Söylemez](Gizem-Söylemez.md)
+- [Seynabou Mbaye](Seynabou-Mbaye.md)
+- [Sophia Lenz](Sophia-Lenz.md)
 
--  [Jane Dane](jane-dane.md)
-
-]
