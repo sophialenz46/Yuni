@@ -5,6 +5,11 @@
 ## Target Users and Their Problems
 Unsere Plattform richtet sich an Studierende der Hochschule für Wirtschaft und Recht Berlin (HWR). Sie soll Studierende miteinander vernetzen und die gegenseitige Unterstützung im Studienalltag erleichtern.
 
+### Grundlage der Product Discovery
+Zur Untersuchung der Bedürfnisse und Herausforderungen unserer Zielgruppe wurde eine anonyme Online-Umfrage unter 40 Studierenden der HWR Berlin durchgeführt. Die Ergebnisse dienen als Grundlage für die weitere Entwicklung unserer Plattform Yuni.
+
+Die Umfrage und ihre Ergebnisse sind in der Product Discovery unter [Target Users and Their Problems](product-discovery/02-users-problems.md) dokumentiert.
+
 ### Demand Side: Studierende, die Unterstüzung suchen
 Zur Nachfrageseite gehören Studierende aller Semester, insbesondere Erstsemester, die Unterstützung bei ihrem Studium benötigen. Gerade zu Beginn des Studiums fällt es vielen Studenten schwer, sich im Hochschulalltag zurechtzufinden sowie geeignete Nachhilfe zu finden, die genau den Anforderungen des Moduls entsprechen. Die Idee ist, dass Studenten aus höheren Semestern die Nachhilfe in diesen Modulen anbieten. Es entsteht ein Austausch zwischen den Studenten aus der derselben Hochschule.
 
@@ -15,9 +20,12 @@ Zur Angebotsseite gehören Studierende der HWR, die bereits Erfahrungen im Studi
 Wir entwickeln eine zentrale Webplattform von Studierenden für Studierende der HWR Berlin. Die Plattform verbindet Studierende, die Unterstützung suchen, mit Studierenden, die Nachhilfe, Wissen oder Erfahrungen anbieten. Unser Ziel ist es, die Bereiche Nachhilfevermittlung, Community und Studienorganisation auf einer gemeinsamen Plattform zusammenzuführen.
 
 **Unsere drei Kernfunktionen umfassen:**
-1. Nachhilfe anbieten und suchen: Studierende können Nachhilfeangebote veröffentlichen und passende Unterstützung finden.
-2. Studien-Guides: Informationen und Orientierungshilfen für unterschiedliche Studienphasen, insbesondere für Erstsemester.
-3. Community und Austausch: Studierende können sich über ein Community-Forum und eine Übersicht relevanter WhatsApp-Gruppen miteinander vernetzen.
+
+**1. Nachhilfe anbieten und suchen:** Studierende können Nachhilfeangebote veröffentlichen und über die Such- und Filterfunktion passende Unterstützung finden. In unserem ersten Konzept haben wir uns dafür entschieden, dass die Angebotsseite die Nachhilfeangebote erstellt, während die Nachfrageseite aktiv nach passenden Angeboten sucht. Dadurch können Studierende gezielt nach Studiengang, Modul, Lernformat und Preis filtern und die verfügbaren Angebote miteinander vergleichen. Die Möglichkeit, eigene Nachhilfegesuche zu veröffentlichen, könnte in einer späteren Erweiterung der Plattform berücksichtigt werden.
+
+**2. Studien-Guides:** Die Plattform stellt PDF-Dokumente mit hilfreichen Informationen und Orientierungshilfen für verschiedene Studienphasen bereit. Diese sollen Studierenden insbesondere zu Beginn ihres Studiums helfen, sich im Hochschulalltag zurechtzufinden. Die Guides können direkt auf der Plattform eingesehen und heruntergeladen werden.
+
+**3. Community und Austausch:** Studierende können sich über ein Community-Forum und eine Übersicht relevanter WhatsApp-Gruppen miteinander vernetzen. Im Forum können sie eigene Fragen stellen, Erfahrungen austauschen und auf Beiträge anderer Studierender antworten. Zusätzlich können sie passende WhatsApp-Gruppen für ihren Studiengang oder einzelne Module finden und eigene Gruppen-Links teilen. Im Unterschied zu den Studien-Guides steht hier der direkte und interaktive Austausch zwischen Studierenden im Mittelpunkt.
 
 ### Solution for the Demand Side
 Studierende, die Unterstützung suchen, erhalten eine zentrale Anlaufstelle für ihre Fragen und Bedürfnisse.
