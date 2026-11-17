@@ -3,7 +3,7 @@
 >
 > You may delete this `!IMPORTANT` box.
 
-# [YUNI]
+# YUNI
 
 **Yuni** ist eine Web-App von Studierenden für Studierende der HWR Berlin. Sie verbindet Studierende, die Unterstützung im Studium suchen mit anderen Studierenden, die ihr Wissen und ihre Erfahrungen weitergeben möchten. 
 
