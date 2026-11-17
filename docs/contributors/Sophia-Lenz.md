@@ -30,41 +30,53 @@ Mir ist bewusst, dass folgendes als Täuschungsversuch gewertet wird und zu eine
 
 Mir ist weiterhin bewusst, dass ich, sofern ich zur Erstellung dieser Arbeit KI-basierte Hilfsmittel verwendet habe, die Verantwortung für eventuell durch die KI generierte fehlerhafte oder verzerrte Inhalte, fehlerhafte Referenzen, Verstöße gegen das Datenschutz- und Urheberrecht oder Plagiate trage.
 
+
+
+
 ---
+
 ## Vertical Feature Ownership
 
-[First, briefly describe the vertical feature(s) that you owned.
+I owned the **Community feature (Forum + WhatsApp Groups)**.
 
-Next, provide a **step-by-step walkthrough** of owned vertical feature(s) that examiner can follow in app. Ensure this matches actually implemented functionality.
+My responsibilities included implementing the Community navigation, displaying and sharing WhatsApp groups, creating and answering forum questions, managing the related database tables (`beitrag`, `antwort`, `gruppe`), and providing the forum API.
 
-**In addition**, supply ample proof of ownership, primarily through exemplary git commit traces. For every vertical feature you owned, maintain a table like this.]
+**Step-by-step walkthrough:**
+
+Is missing
 
 | Activities | Proof, e.g., git commits | Sources used |
 | :-- | :-- | :-- |
-| [Design Challenge research] | [Research traces](../product-discovery/01-design-challenge.md#raw-materia) | See left |
-| [Refactor to use Flask Blueprints] | [d816e4](https://github.com/hwrberlin/fswd/commit/d816e4), [75a6c1](https://github.com/hwrberlin/fswd/commit/75a6c1) | [Flask Documentation](https://flask.palletsprojects.com/en/stable/blueprints/#the-concept-of-blueprints) |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Implement Community page and navigation between WhatsApp Groups and Forum |  | Flask Documentation |
+| Implement WhatsApp group overview (`GET /community/gruppen`) |  | Flask Documentation |
+| Implement WhatsApp group sharing (`GET`, `POST /community/gruppen/teilen`) |  | Flask Documentation |
+| Implement validation of WhatsApp invitation links and prevent duplicates | | Flask Documentation |
+| Implement Forum overview (`GET /community/forum`) with categories and newest posts first | | Flask Documentation |
+| Implement reply counts and relative timestamps for forum posts |  | Python Documentation |
+| Implement creating forum questions (`GET`, `POST /community/forum/frage`) | | Flask Documentation |
+| Implement individual forum post pages (`GET /community/forum/<id>`) | | Flask Documentation |
+| Implement forum replies (`POST /community/forum/<id>/antwort`) | | Flask Documentation |
+| Create database tables `beitrag`, `antwort`, and `gruppe` with relationships to users, degree programs, and modules |  | SQLAlchemy Documentation |
+| Implement Forum API (`GET /api/forum`) with JSON responses and authentication |  | Flask Documentation |
 
 ---
 
 ## Portfolio Ownership
 
-[Indicate your [Portfolio Ownership](https://hwrberlin.github.io/fswd/assessment.html#vertical-feature-and-portfolio-ownership). Usually, it will be sufficicent to just write something like: "I owned Portfolio **B** in our **4-person** team."
+I owned Portfolio **B** in our **4-person** team.
 
-**In addition**, supply ample proof of ownership, primarily through work diary entries, git commit traces, and other useful artifacts. Maintain a table like this.]
-
-| Portfolio Task | Proof |
-| :-- | :-- |
-| **Discovery Process** | |
-| Plan discovery activities | [Discovery Plan](../product-discovery/material/02-up/.todo) |
-| Maintain discovery evidence | *01.11.:* I reminded everybody to upload their discovery evidence |
-| | *05.11.:* I checked all uploads for completeness |
-**API** | |
-| Integrate API behavior | [74a6b7](https://github.com/hwrberlin/fswd/commit/74a6b7) |
-| | |
-| | |
+| Portfolio Task | Concrete Tasks at Yuni | Proof |
+| :-- | :-- | :-- |
+| **App Scope** | | |
+| Synthesize discovery findings | Translate survey results into Demand Side, Supply Side, and the three core application features. | |
+| Maintain the value proposition | Update the value proposition according to current project decisions, such as contact via email and hiding or deleting offers, and ensure consistency with the implemented application. | |
+| Control project scope | Prioritize the main user journeys (searching for and offering tutoring). Postpone additional features, such as English-language support and tutoring requests, until the core functionality works. | |
+| Maintain feedback response | Document and evaluate feedback from peer reviews and the lecturer, including feedback about the guest role. Record whether feedback was accepted or rejected and explain the decisions. | |
+| **Data Integration** | | |
+| Integrate the data model | Combine all database tables (`user`, `guide`, `favorit`, `angebot`, `studiengang`, `modul`, `beitrag`, `antwort`, `gruppe`) into one consistent Entity Relationship Model (ERM) with uniform naming conventions. | |
+| Coordinate data constraints | Ensure primary keys, foreign keys, uniqueness constraints, and deletion rules. This includes unique email addresses and usernames, preventing duplicate favorites and WhatsApp group links, and ensuring correct data deletion when an account is deleted. | |
+| Review schema changes | Ensure database changes from different vertical features do not introduce duplicate concepts or inconsistent relationships. Shared tables such as `studiengang` and `modul` must be reused across features, and the `sprache` field belongs to the `user` table. | |
+| Verify database readiness | Verify that database initialization works, the SQLite database contains functional example data, and the documented ERM matches the actual implementation. | |
 
 ---
 
