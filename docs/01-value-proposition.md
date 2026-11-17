@@ -41,10 +41,11 @@ Erstsemester Studierende suchen nach Orientierung, da Sie neu an der Hochschule 
 Ausgangssituation: Eine Erstsemesterstudentin der HWR hat Schwierigkeiten in einem Modul und sucht nach geeigneter Nachhilfe.
 
 1. Die Studentin öffnet die Webplattform und erhält einen Überblick über die verfügbaren Funktionen.
-2. Sie navigiert zum Bereich „Nachhilfe suchen“ findet die vorhandenen Nachhilfeangebote und sucht nach Unterstützung für ihr Modul. Sie entscheidet sich für ein Angebot, das zu ihrem Unterstützungsbedarf passt.
-5. Sie nutzt die auf der Plattform vorgesehene Kontaktmöglichkeit, um die nachhilfegebende Person zu erreichen. Beide Studierenden stimmen einen Termin und die weiteren Einzelheiten ab.
-7. Die Studentin nimmt die vereinbarte Nachhilfe in Anspruch und erhält Hilfe bei ihren fachlichen Schwierigkeiten.
-8. Die Studentin findet über die Plattform passende Unterstützung und kann ihre Schwierigkeiten im Studium gezielt angehen.
+2. Sie navigiert zum Bereich „Nachhilfe suchen“ findet die vorhandenen Nachhilfeangebote und sucht nach Unterstützung für ihr Modul.
+3. Sie entscheidet sich für ein Angebot, das zu ihrem Unterstützungsbedarf passt.
+4. Sie nutzt die auf der Plattform angegebene E-Mail Adresse, um die nachhilfegebende Person zu kontaktieren. Beide Studierenden stimmen einen Termin und die weiteren Einzelheiten ab.
+5. Die Studentin nimmt die vereinbarte Nachhilfe in Anspruch und erhält Hilfe bei ihren fachlichen Schwierigkeiten.
+6. Die Studentin findet über die Plattform passende Unterstützung und kann ihre Schwierigkeiten im Studium gezielt angehen.
 
 ### Supply-Side Happy Path
 Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen in einem bestimmten Modul weitergeben und Nachhilfe anbieten.
@@ -52,7 +53,7 @@ Ausgangssituation: Ein Student aus einem höheren Semester möchte sein Wissen i
 1. Der Student öffnet die Webplattform und navigiert zum Bereich „Nachhilfe anbieten“.
 2. Er gibt die benötigten Informationen zu seinem Nachhilfeangebot ein, das Modul und eine Beschreibung der Unterstützung.
 3. Er veröffentlicht sein Nachhilfeangebot auf der Plattform.
-4. Eine Studentin entdeckt das Angebot und nimmt Kontakt zu ihm auf. Beide besprechen den Unterstützungsbedarf und vereinbaren einen Termin.
+4. Eine Studentin entdeckt das Angebot und kontaktiert ihn per E-Mail. Beide besprechen den Unterstützungsbedarf und vereinbaren einen Termin.
 5. Der Student unterstützt die Studentin beim Verständnis der Lerninhalte.
 6. Der Student kann sein Wissen weitergeben, andere Studierende unterstützen und gegebenenfalls durch die Nachhilfe Geld verdienen.
 
@@ -93,7 +94,7 @@ Das Community Forum ermöglicht Studierenden, Fragen und Anliegen zu teilen und 
 
 ![Yuni CommunityScreen2](./assets/images/ScreenCommunity2.jpeg)
 
-## 9. Mein Profil: 
+## 8. Mein Profil: 
 Im persönlichen Profil können Studierende ihre Kontoinformationen einsehen, Einstellungen verwalten und sich abmelden. Außerdem werden hier gespeicherte Nachhilfe Angebote und Community-Beiträge gesammelt angezeigt. 
 
 ![Yuni MeinProfil](./assets/images/ScreenMeinProfil.jpeg)
