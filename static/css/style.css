@@ -1,0 +1,66 @@
+
+.Whatsapp Gruppen{
+    background-color: rgb(255, 255, 255);
+}
+nav ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;   
+  background-color: rgb(255, 235, 235);
+}
+
+nav li a {
+  display: block;
+  padding: 1rem 1.5Link;
+  color: #000000;
+}
+
+nav li a:hover {
+  background-color: #555; 
+}
+
+.Suchbegriff{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    label {
+        font-weight: bold;
+        color:rgb(0, 0, 0)
+    }
+    button {
+        background-color:rgba(255, 255, 255);
+    }
+}
+
+.Filtern{
+    display: flex;
+    select {background-color:rgb(255, 255, 255);
+    } 
+    gap: 5px;
+    label {
+        font-weight: bold;
+        color:rgb(0, 0, 0)
+    }
+}
+
+.Links {
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.gruppe {
+    float: left;
+    width: 40%;
+    background: rgb(255, 235, 235);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.gruppe h5 {
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
