@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <title> forum</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/style_community.css">
+    </head>
+    <body>
+        <header>
+    <nav class="Navigation">
+  <ul>
+    <li><a href="#home">Startseite</a></li>
+    <li><a href="#nachhilfe suchen">Nachhilfe suchen</a></li>
+    <li><a href="#nachhilfe anbieten">Nachhilfe anbieten</a></li>
+    <li><a href="#studienguides">Studienguides</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#profil">Mein Profil</a></li>
+  </ul>
+</nav>
+        <h2> Aktuelle Diskussionen  <h2/>
+        </header>
+        <main>
+            <p>Stelle Fragen und tausche dich mit Kommilitonen aus</p>
+
+
+<div class="Suchbegriff">
+
+    <form action="/suche" method="get">
+        <label for="site-search">Suchbegriff:</label>
+        <input type="search" id="site-search"
+               name="q" placeholder="Suchen...">
+        <button class="suchen" type="submit">Suchen</button>
+    </form>
+
+    <div class="Filtern">
+        <label for="Kategorie">Kategorie:</label>
+        <select name="Kategorie" id="Kategorie">
+            <option>Alle Kategorien</option>
+            <option>Erstis</option>
+            <option>Kurse</option>
+            <option>Lerngruppen</option>
+            <option>Praktikum</option>
+            <option>Bachelorarbeit</option>
+        </select>
+    </div>
+
+</div>
+
+<div class="Frage-stellen">
+    <label for="neue-frage">Stelle deine Frage:</label>
+    <input type="text" id="neue-frage"
+           name="frage"
+           placeholder="Was möchtest du wissen?">
+    <button type="button">Frage stellen</button>
+</div>
+            
+<h2>Häufig gestellte Fragen (FAQ)</h2>
+<div class="left">
+
+    <div class="faq">
+        <input type="checkbox">
+        <h3>Wie finde ich als Ersti Anschluss an andere Studierende?</h3>
+        <span class="kategorie">Erstis</span>
+        <div>
+            <p>In der Kategorie "Erstis" kannst du dich mit anderen
+            Studienanfängern austauschen, Fragen zum Studienstart
+            stellen und Kontakte knüpfen. Außerdem kannst du über
+            unsere Community passende WhatsApp-Gruppen finden.</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <input type="checkbox">
+        <h3>Wo kann ich Fragen zu meinen Kursen stellen?</h3>
+        <span class="kategorie">Kurse</span>
+        <div>
+            <p>In der Kategorie "Kurse" kannst du Fragen zu
+            Vorlesungen, Übungen und Prüfungen stellen.
+            Tausche dich mit anderen Studierenden über
+            Kursinhalte und hilfreiche Lernmaterialien aus.</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <input type="checkbox">
+        <h3>Wie finde ich eine passende Lerngruppe?</h3>
+        <span class="kategorie">Lerngruppen</span>
+        <div>
+            <p>In der Kategorie "Lerngruppen" kannst du nach
+            Studierenden suchen, die gemeinsam lernen möchten.
+            Du kannst bestehende Lerngruppen entdecken oder
+            eine Frage stellen, um selbst eine Gruppe zu gründen.</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <input type="checkbox">
+        <h3>Wo bekomme ich Tipps für meine Praktikumssuche?</h3>
+        <span class="kategorie">Praktikum</span>
+        <div>
+            <p>In der Kategorie "Praktikum" kannst du dich
+            über Praktikumserfahrungen, Bewerbungen und
+            Vorstellungsgespräche austauschen.
+            Andere Studierende können ihre Erfahrungen
+            und hilfreiche Tipps mit dir teilen.</p>
+        </div>
+    </div>
+
+    <div class="faq">
+        <input type="checkbox">
+        <h3>Wo finde ich Unterstützung bei meiner Bachelorarbeit?</h3>
+        <span class="kategorie">Bachelorarbeit</span>
+        <div>
+            <p>In der Kategorie "Bachelorarbeit" kannst du
+            Fragen zur Themenfindung, Literaturrecherche,
+            Gliederung und zum wissenschaftlichen Schreiben
+            stellen. Tausche dich mit Studierenden aus,
+            die bereits Erfahrungen gesammelt haben.</p>
+        </div>
+    </div>
+
+</div>
+<p></p>
+        </main>
+        <footer>
+           <button class="zurück" type="submit">Geh zurück</button>
+        </footer>
+    </body>
+</html>
+
+
+
