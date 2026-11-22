@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang=de>
+    <head>
+        <title> Nachhilfe suchen </title>
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/style_nachhilfe.css">
+    </head>
+    <body>
+        <header>
+    <nav class="Navigation">
+  <ul>
+    <li><a href="#home">Startseite</a></li>
+    <li><a href="#nachhilfe suchen">Nachhilfe suchen</a></li>
+    <li><a href="#nachhilfe anbieten">Nachhilfe anbieten</a></li>
+    <li><a href="#studienguides">Studienguides</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#profil">Mein Profil</a></li>
+  </ul>
+</nav>
+        <h2> Nachhilfe suchen </h2>
+        </header>
+        <main>
+            <p>Finde deine perfekte Nachhilfe für deine Fächer</p>
+
+            <div class="Suchfeld">
+                <input type="text" placeholder="Suche nach Fächern...">
+            </div>
+
+             <div class="Filterbox">
+
+                 <form action="/suche" method="get">
+                  <label for="site-search">Suchbegriff:</label>
+                  <input type="search" id="site-search"
+                        name="q" placeholder="Suchen...">
+                  <button class="suchen" type="submit">Suchen</button>
+                </form>
+                
+                
+                
+                <label for="Kategorie">Kategorie:</label>
+                <select name="Kategorie" id="Kategorie">
+                    <option>Alle Kategorien</option>
+                    <option>Mathematik</option>
+                    <option>Informatik</option>
+                    <option>Marketing</option>
+                    <option>Management</option>
+                    <option>Sozial</option>
+                </select>
+
+                <label for="Studiengang">Studiengang:</label>
+                <select name="Studiengang" id="Studiengang">
+                    <option>Alle Studiengänge</option>
+                    <option>BWL</option>
+                    <option>WI</option>
+                    <option>Medieninformatik</option>
+                </select>
+
+                <label for="Lernformat">Lernformat:</label>
+                <select name="Lernformat" id="Lernformat">
+                    <option>Alle Formate</option>
+                    <option>Online</option>
+                    <option>Präsenz</option>
+                </select>
+
+                <label for="Preis">Preis:</label>
+                <select name="Preis" id="Preis">
+                    <option>Alle Preise</option>
+                    <option>0-10€</option>
+                    <option>10-20€</option>
+                    <option>20-30€</option>
+                    <option>30-40€</option>
+                    <option>40-50€</option>
+                </select>
+            </div>
+
+
+            <div> class="Filter-zurücksetzen">
+                <button type="button">Filter zurücksetzen</button>
+            </div>>
+
+
+            <div class="Suchergebnisse">
+                <h3>Suchergebnisse:</h3>
+                <ul>
+                    <li>Nachhilfelehrer 1</li>
+                    <li>Nachhilfelehrer 2</li>
+                    <li>Nachhilfelehrer 3</li>
+                </ul>
+            </div>
+
+            <div class="Neue-Angebote">
+                <h3>Neuste Angebote:</h3>
+                <ul>
+                    <li>Nachhilfelehrer 1</li>
+                    <li>Nachhilfelehrer 2</li>
+                    <li>Nachhilfelehrer 3</li>
+                </ul>
+            </div>
+
+
+
+      
+        <p></p>
+        </main>
+        <footer>
+           <button class="zurück" type="submit">Geh zurück</button>
+        </footer>
+    </body>
+</html>
+
