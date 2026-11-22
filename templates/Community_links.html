@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <title> links </title>
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/style_community.css">
+    </head>
+    <body class="Whatsapp-Gruppen">
+        <header>
+<nav class="Navigation">
+  <ul>
+    <li><a href="#home">Startseite</a></li>
+    <li><a href="#nachhilfe suchen">Nachhilfe suchen</a></li>
+    <li><a href="#nachhilfe anbieten">Nachhilfe anbieten</a></li>
+    <li><a href="#studienguides">Studienguides</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#profil">Mein Profil</a></li>
+  </ul>
+</nav>
+           <h1> Whatsapp Gruppen entdecken </h1> 
+        </header>
+        <main>
+<search class="Suchbegriff">
+    <form action="/suche" method="get">
+    <label for="site-search">Suchbegriff</label>
+    <input type="search" id="site-search" name="q" placeholder="Suchen..." required>
+    <button class="suchen" type="submit">Suchen</button> </form> 
+</search>
+
+<section class = "Filtern"> 
+<label for="Hochschule">Hochschule:</label>
+<select name="Hochschule" id="Hochschule">
+    <option>Alle Hochschulen</option>
+    <option>HWR</option>
+    <option>HTW</option>
+    <option>BHT</option>
+    <option>TU</option>
+    <option>FU</option>
+</select>
+<label for="Semester"> Semester:</label>
+<select name="Semester" id="Semester">
+    <option>Alle Semester</option>
+    <option>1. Semester</option>
+    <option>2. Semester</option>
+    <option>3. Semester</option>
+    <option>4. Semester</option>
+    <option>5. Semester</option>
+    <option>6. Semester</option>
+</select>
+
+<label for="Kategorie">Kategorie:</label>
+<select name="Kategorie" id="Kategorie">
+    <option>Alle Kategorien</option>
+    <option>Erstis</option>
+    <option>Kurse</option>
+    <option>Lerngruppen</option>
+    <option>Praktikum</option>
+    <option>Bachelorarbeit</option>
+</select>
+</section>
+
+<section class="Links">
+    <div class="gruppe">
+        <h5>Wirtschaftsinformatik - Erstis</h5>
+        Link zur Gruppe: <a href="faq.html">Erstis</a>
+    </div>
+
+    <div class="gruppe">
+        <h5>Tausch von Kursen</h5>
+        Link zur Gruppe: <a href="faq.html">Kurse</a>
+    </div>
+
+    <div class="gruppe">
+        <h5>Lerngruppe - Statistik</h5>
+        Link zur Gruppe: <a href="faq.html">Lerngruppe</a>
+    </div>
+
+    <div class="gruppe">
+        <h5>Praktikumssuche</h5>
+        Link zur Gruppe: <a href="faq.html">Praktikum</a>
+    </div>
+</section>
+            
+<form class="Gruppe-teilen">
+    <h3>WhatsApp-Gruppe teilen</h3>
+    <label for="gruppenname">Gruppenname:</label>
+    <input type="text" id="gruppenname"
+           name="gruppenname"
+           placeholder="Name der Gruppe" required>
+
+    <label for="gruppen-kategorie">Kategorie:</label>
+    <select id="gruppen-kategorie" name="kategorie">
+        <option>Erstis</option>
+        <option>Kurse</option>
+        <option>Lerngruppen</option>
+        <option>Praktikum</option>
+        <option>Bachelorarbeit</option>
+    </select>
+
+    <label for="gruppenlink">Gruppenlink:</label>
+    <input type="url" id="gruppenlink"
+           name="gruppenlink"
+           placeholder="Link einfügen..." required>
+
+    <button type="submit">Gruppe teilen</button>
+</form>
+
+        </main>
+        <footer>
+           <p></p>
+        </footer>
+    </body>
+</html>
+
+
