@@ -20,5 +20,63 @@
         <h2> Nachhilfe anbieten </h2>
         </header>
         <main>
-            <p>Biete Nachhilfe für deine Fächer an</p>
+          
+            <h3>Erstelle dein Nachhilfeangebot</h3>
+
+            <form action="/nachhilfe/anbieten" method="POST">
+
+                <!-- Hochschule -->
+                <label for="hochschule">Hochschule:</label>
+                <input type="text" id="hochschule" value="HWR Berlin" readonly>
+
+                <!-- Titel -->
+                <label for="titel">Titel des Angebots:</label>
+                <input type="text" id="titel" name="titel"
+                       placeholder="z.B. Nachhilfe in Programmieren" required>
+
+                <!-- Studiengang -->
+                <label for="studiengang">Studiengang:</label>
+                <select id="studiengang" name="studiengang" required>
+                    <option value="">Studiengang auswählen</option>
+                    <option value="Wirtschaftsinformatik">Wirtschaftsinformatik</option>
+                    <option value="BWL">Betriebswirtschaftslehre</option>
+                </select>
+
+                <!-- Modul -->
+                <label for="modul">Modul:</label>
+                <select id="modul" name="modul" required>
+                    <option value="">Modul auswählen</option>
+                    <option value="Programmieren 1">Programmieren 1</option>
+                    <option value="Datenbanken">Datenbanken</option>
+                    <option value="Einführung in die Wirtschaftsinformatik">
+                        Einführung in die Wirtschaftsinformatik
+                    </option>
+                </select>
+
+                <!-- Lernformat -->
+                <label for="lernformat">Lernformat:</label>
+                <select id="lernformat" name="lernformat" required>
+                    <option value="">Lernformat auswählen</option>
+                    <option value="Online">Online</option>
+                    <option value="Präsenz">Präsenz</option>
+                    <option value="Hybrid">Hybrid</option>
+                </select>
+
+                <!-- Preis -->
+                <label for="preis">Preis pro Stunde (€):</label>
+                <input type="number" id="preis" name="preis"
+                       min="0" step="0.01" placeholder="z.B. 15" required>
+
+                <!-- Beschreibung -->
+                <label for="beschreibung">Beschreibung:</label>
+                <textarea id="beschreibung" name="beschreibung"
+                          rows="5" placeholder="Beschreibe dein Angebot..."
+                          required></textarea>
+
+                <!-- Absenden -->
+                <button type="submit">Angebot erstellen</button>
+
+            </form>
         </main>
+    </body>
+</html>
