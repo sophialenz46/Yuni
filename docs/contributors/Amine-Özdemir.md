@@ -30,41 +30,55 @@ Mir ist bewusst, dass folgendes als Täuschungsversuch gewertet wird und zu eine
 
 Mir ist weiterhin bewusst, dass ich, sofern ich zur Erstellung dieser Arbeit KI-basierte Hilfsmittel verwendet habe, die Verantwortung für eventuell durch die KI generierte fehlerhafte oder verzerrte Inhalte, fehlerhafte Referenzen, Verstöße gegen das Datenschutz- und Urheberrecht oder Plagiate trage.
 
----
-
 ## Vertical Feature Ownership
 
-[First, briefly describe the vertical feature(s) that you owned.
+I owned the **Account feature (registration, login/logout with access control, settings, account deletion)** together with the **start page, welcome page, and master data (degree programs and modules)**.
 
-Next, provide a **step-by-step walkthrough** of owned vertical feature(s) that examiner can follow in app. Ensure this matches actually implemented functionality.
+My responsibilities included the `user` table, registration restricted to HWR student email addresses, login and logout with sessions, the shared access control (`@login_required`) used by all other features, the settings page (change name, change password), deleting an account including all related data across features, the tables `studiengang` and `modul` with example data, and the profile API.
 
-**In addition**, supply ample proof of ownership, primarily through exemplary git commit traces. For every vertical feature you owned, maintain a table like this.]
+### Step-by-step walkthrough
+
+*Will be added once the feature is fully implemented.*
+
+### Proof of ownership
 
 | Activities | Proof, e.g., git commits | Sources used |
 | :-- | :-- | :-- |
-| [Design Challenge research] | [Research traces](../product-discovery/01-design-challenge.md#raw-materia) | See left |
-| [Refactor to use Flask Blueprints] | [d816e4](https://github.com/hwrberlin/fswd/commit/d816e4), [75a6c1](https://github.com/hwrberlin/fswd/commit/75a6c1) | [Flask Documentation](https://flask.palletsprojects.com/en/stable/blueprints/#the-concept-of-blueprints) |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Set up shared Flask app (`app.py`) and `requirements.txt` | [d18ee3f](https://github.com/sophialenz46/Yuni/commit/d18ee3f) | [Lecture notebook: Full-stack web development](https://hwrberlin.github.io/fswd/fswd-intro.html) |
+| Implement start page (`GET /`) with header, navigation, registration/login box and feature cards | [bf04ae1](https://github.com/sophialenz46/Yuni/commit/bf04ae1) | [Lecture notebook: HTML + CSS](https://hwrberlin.github.io/fswd/html-css.html) |
+| Create database tables `studiengang` and `modul` with example data | | [Flask-SQLAlchemy Documentation](https://flask-sqlalchemy.readthedocs.io/) |
+| Create database table `user` with unique username and email | | [Flask-SQLAlchemy Documentation](https://flask-sqlalchemy.readthedocs.io/) |
+| Implement registration (`GET`, `POST /registrieren`) restricted to `@stud.hwr-berlin.de` addresses | | [Flask Documentation](https://flask.palletsprojects.com/), [WTForms Documentation](https://wtforms.readthedocs.io/) |
+| Implement password hashing and checking | | [Werkzeug Documentation](https://werkzeug.palletsprojects.com/) |
+| Implement login (`GET`, `POST /anmelden`) and logout (`POST /abmelden`) with sessions | | [Flask Documentation](https://flask.palletsprojects.com/) |
+| Implement access control (`@login_required`) with redirect for pages and 401 for API routes | | [Flask Documentation](https://flask.palletsprojects.com/) |
+| Provide `current_user` for all templates | | [Flask Documentation](https://flask.palletsprojects.com/) |
+| Implement welcome page (`GET /willkommen`) | | [Flask Documentation](https://flask.palletsprojects.com/) |
+| Implement profile header component (used on the profile page) | | [Jinja Documentation](https://jinja.palletsprojects.com/) |
+| Implement settings: change name (`GET`, `POST /einstellungen`) | | [Flask Documentation](https://flask.palletsprojects.com/) |
+| Implement settings: change password (`POST /einstellungen/passwort`) | | [Werkzeug Documentation](https://werkzeug.palletsprojects.com/) |
+| Implement account deletion (`POST /konto/loeschen`) including all related data | | [Flask-SQLAlchemy Documentation](https://flask-sqlalchemy.readthedocs.io/) |
+| Implement Profile API (`GET /api/profil`) with JSON response and authentication | | [Flask Documentation](https://flask.palletsprojects.com/) |
 
 ---
 
 ## Portfolio Ownership
 
-[Indicate your [Portfolio Ownership](https://hwrberlin.github.io/fswd/assessment.html#vertical-feature-and-portfolio-ownership). Usually, it will be sufficicent to just write something like: "I owned Portfolio **B** in our **4-person** team."
+I owned Portfolio **D** in our **4-person** team.
 
-**In addition**, supply ample proof of ownership, primarily through work diary entries, git commit traces, and other useful artifacts. Maintain a table like this.]
-
-| Portfolio Task | Proof |
-| :-- | :-- |
-| **Discovery Process** | |
-| Plan discovery activities | [Discovery Plan](../product-discovery/material/02-up/.todo) |
-| Maintain discovery evidence | *01.11.:* I reminded everybody to upload their discovery evidence |
-| | *05.11.:* I checked all uploads for completeness |
-**API** | |
-| Integrate API behavior | [74a6b7](https://github.com/hwrberlin/fswd/commit/74a6b7) |
-| | |
-| | |
+| Portfolio Task | Concrete Tasks at Yuni | Proof |
+| :-- | :-- | :-- |
+| **Product Rules** | | |
+| Identify shared product rules | Make important rules explicit: registration only with HWR student email, guests only see the start, login and registration pages, the university is fixed to HWR Berlin, only the creator may hide or delete an offer, only active offers are visible, no contact button on one's own offer, each favorite exists only once, deleting an account removes all of the person's data. | |
+| Integrate domain behavior | Ensure that vertical features do not implement contradictory or duplicated rules: login checks only via `@login_required`, filter logic as one shared function for search page and API, favorite logic in one place only. | |
+| Align HTML and API behavior | Ensure that human-facing pages and API endpoints enforce the same rules: `/api/angebote` returns the same (only active) offers as the search page with the same filters; guests receive 401 from the API instead of a redirect. | |
+| **Documentation Quality** | | |
+| Maintain documentation structure | Ensure that all required Markdown pages are present, linked, and published via GitHub Pages. | |
+| Coordinate documentation quality | Check consistent terminology, readable Markdown, correct diagrams (ERM), and valid code references in the documentation. | |
+| Review design decisions | Ensure that every team member has at least two design decisions in the mandatory format with evidence of how the options were evaluated (e.g., branches). | |
+| Verify contribution documentation | Ensure that all four contribution pages cover all mandatory sections and that every claim is backed by proof such as git commits. | |
+| **Repository Delivery** | | |
+| Coordinate release identification | Ensure that the submission commit contains the latest integrated work of all four features, including documentation. | |
+| Verify readme instructions | Test the README on Windows and macOS: clone, install, initialize the database, start the app, log in with a demo account, and complete the happy path within 10 minutes. | |
 
 ---
