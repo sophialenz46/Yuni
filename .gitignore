@@ -63,7 +63,8 @@ db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
-instance/
+instance/*
+!instance/yuni.sqlite
 .webassets-cache
 
 # Scrapy stuff:
