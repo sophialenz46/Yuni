@@ -30,40 +30,40 @@ Mir ist bewusst, dass folgendes als Täuschungsversuch gewertet wird und zu eine
 
 Mir ist weiterhin bewusst, dass ich, sofern ich zur Erstellung dieser Arbeit KI-basierte Hilfsmittel verwendet habe, die Verantwortung für eventuell durch die KI generierte fehlerhafte oder verzerrte Inhalte, fehlerhafte Referenzen, Verstöße gegen das Datenschutz- und Urheberrecht oder Plagiate trage.
 
-## Vertical Feature Ownership
+# Vertical Feature Ownership
 
-[First, briefly describe the vertical feature(s) that you owned.
+I owned the Tutoring feature (offering, searching, managing, and contacting).
 
-Next, provide a **step-by-step walkthrough** of owned vertical feature(s) that examiner can follow in app. Ensure this matches actually implemented functionality.
+My responsibilities included implementing the creation of tutoring offers, the search with filters, and the contact via email. I also managed the related database table (angebot) and provided the tutoring API (/api/angebote) with its filter logic.
 
-**In addition**, supply ample proof of ownership, primarily through exemplary git commit traces. For every vertical feature you owned, maintain a table like this.]
+## Step-by-step walkthrough
 
 | Activities | Proof, e.g., git commits | Sources used |
-| :-- | :-- | :-- |
-| [Design Challenge research] | [Research traces](../product-discovery/01-design-challenge.md#raw-materia) | See left |
-| [Refactor to use Flask Blueprints] | [d816e4](https://github.com/hwrberlin/fswd/commit/d816e4), [75a6c1](https://github.com/hwrberlin/fswd/commit/75a6c1) | [Flask Documentation](https://flask.palletsprojects.com/en/stable/blueprints/#the-concept-of-blueprints) |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|---|---|---|
+| Implement the form to create a tutoring offer (GET, POST) with validation and flash messages | | Flask Documentation |
+| Implement tutoring search page showing only active offers | | Flask Documentation |
+| Implement filter logic (e.g., degree program, module) as one shared function for search page and API | | Python Documentation |
+| Implement offer detail view with contact via email | | Flask Documentation |
+| Hide the contact button on a user's own offers | | Jinja2 Documentation |
+| Implement empty states and confirmation feedback for the tutoring pages | | Jinja2 Documentation |
+| Create database table angebot with relationships to user, studiengang, and modul | | SQLite Documentation |
+| Implement tutoring API (GET /api/angebote) with the same filters as the search page, JSON responses, and authentication (401 for guests) | | Flask Documentation |
 
----
+# Portfolio Ownership
 
-## Portfolio Ownership
+I owned Portfolio A in our 4-person team.
 
-[Indicate your [Portfolio Ownership](https://hwrberlin.github.io/fswd/assessment.html#vertical-feature-and-portfolio-ownership). Usually, it will be sufficicent to just write something like: "I owned Portfolio **B** in our **4-person** team."
+| Portfolio Task | Concrete Tasks at Yuni | Proof |
+|---|---|---|
+| **Discovery Process** | | |
+| Plan discovery activities | Document and justify the research questions, the target group (students at HWR), and the method (anonymous online survey with 40 participants). | |
+| Maintain discovery evidence | Store the survey and its results as raw material in the evidence folder and keep evidence clearly separated from assumptions. | |
+| Identify discovery gaps | Check which statements in the value proposition and happy paths are not supported by the survey and note open questions for further investigation. | |
+| **API** | | |
+| Define the API purpose | Justify for /api/angebote, /api/forum, /api/guides, and /api/profil who would use each endpoint in a machine-facing way. | |
+| Integrate API behavior | Ensure a uniform JSON format, status codes (200, 401, 404), and error responses across all four endpoints. | |
+| Verify API readiness | Document example calls for success and failure cases and test them in the submission version. | |
 
-**In addition**, supply ample proof of ownership, primarily through work diary entries, git commit traces, and other useful artifacts. Maintain a table like this.]
-
-| Portfolio Task | Proof |
-| :-- | :-- |
-| **Discovery Process** | |
-| Plan discovery activities | [Discovery Plan](../product-discovery/material/02-up/.todo) |
-| Maintain discovery evidence | *01.11.:* I reminded everybody to upload their discovery evidence |
-| | *05.11.:* I checked all uploads for completeness |
-**API** | |
-| Integrate API behavior | [74a6b7](https://github.com/hwrberlin/fswd/commit/74a6b7) |
-| | |
-| | |
 
 ---
 
