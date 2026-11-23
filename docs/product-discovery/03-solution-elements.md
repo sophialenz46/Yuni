@@ -1,11 +1,40 @@
-[← Product Discovery](README.md)
-
 # Solution Elements
 
-## [Raw Material]
+## Lösungskonzept
 
-[List / link / paste any material that you created or referenced while generating **ideas and prototypes** that may solve the problem(s) you have identified.
+Yuni ist eine zentrale Plattform für Studierende der HWR Berlin. Sie soll die Vernetzung zwischen Studierenden fördern und den Zugang zu studienrelevanten Informationen und Unterstützungsangeboten vereinfachen.
 
-Ideally, put any material that you created or collected in the folder `📁 docs/product-discovery/material/03-se/`, and link it on this page.
+Die geplanten Funktionen orientieren sich an den Ergebnissen einer Studierendenumfrage.
 
-This section is also a good destination for your Value Proposition Canvas, if you created one.]
+## Geplante Kernfunktionen
+
+### 1. Studentische Gruppen finden
+
+Studierende sollen relevante Gruppen, beispielsweise Lerngruppen oder WhatsApp-Gruppen für bestimmte Module, leichter finden können.
+
+### 2. Community-Forum
+
+Ein Community-Forum soll Studierenden ermöglichen, Fragen zu stellen, Erfahrungen auszutauschen und sich gegenseitig zu unterstützen.
+
+### 3. Studien-Guides und Orientierungshilfen
+
+Yuni soll Informationen und Orientierungshilfen zu wichtigen Themen des Studiums bereitstellen, beispielsweise:
+
+- Prüfungsvorbereitung
+- Praktikum
+- Bachelorarbeit
+- Studienorganisation
+
+### 4. Lernunterstützung
+
+Studierende sollen die Möglichkeit erhalten, nach Lernunterstützung zu suchen oder selbst Unterstützung anzubieten.
+
+## Begründung durch die Umfrage
+
+Die Umfrage zeigt, dass insbesondere studentische Vernetzung, Informationszugang und Lernunterstützung relevante Bedürfnisse der Zielgruppe darstellen.
+
+Die Ergebnisse dienen als Grundlage für die Auswahl und Priorisierung der geplanten Funktionen.
+
+## Raw Material
+
+Die Umfrage und ihre Auswertung sind unter Target Users + Problems dokumentiert.
