@@ -56,7 +56,7 @@ Is missing
 | Implement creating forum questions (`GET`, `POST /community/forum/frage`) | | Flask Documentation |
 | Implement individual forum post pages (`GET /community/forum/<id>`) | | Flask Documentation |
 | Implement forum replies (`POST /community/forum/<id>/antwort`) | | Flask Documentation |
-| Create database tables `beitrag`, `antwort`, and `gruppe` with relationships to users, degree programs, and modules |  | SQLAlchemy Documentation |
+| Create database tables `Beitrag`, `Antwort`, and `Kategorie` with relationships to users, degree programs, and modules | [1729b96](https://github.com/sophialenz46/Yuni/commit/1729b96ea1e7ce95b8846edcb5c8d1f8e82f120a) | SQLAlchemy Documentation |
 | Implement Forum API (`GET /api/forum`) with JSON responses and authentication |  | Flask Documentation |
 
 ---
