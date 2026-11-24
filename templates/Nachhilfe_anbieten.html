@@ -24,59 +24,46 @@
           
             <h3>Create Your Tutoring Offer</h3>
 
-            <form action="/nachhilfe/anbieten" method="POST">
+            <form action="/nachhilfe/anbieten" method="POST" class="grid">
 
-                <!-- University -->
-                <label for="hochschule">University:</label>
-                <input type="text" id="hochschule" value="HWR Berlin" readonly>
+                <div class="g-col-12 g-col-md-6">
+                    <label for="hochschule">University:</label>
+                    <input type="text" id="hochschule" value="HWR Berlin" readonly>
+                </div>
 
-                <!-- Title -->
-                <label for="titel">Offer Title:</label>
-                <input type="text" id="titel" name="titel"
-                       placeholder="e.g. Programming Tutoring" required>
+                <div class="g-col-12 g-col-md-6">
+                    <label for="titel">Offer Title:</label>
+                    <input type="text" id="titel" name="titel" placeholder="e.g. Programming Tutoring" required>
+                </div>
 
-                <!-- Degree Program -->
-                <label for="studiengang">Degree Program:</label>
-                <select id="studiengang" name="studiengang" required>
-                    <option value="">Select degree program</option>
-                    <option value="Wirtschaftsinformatik">Business Information Systems</option>
-                    <option value="BWL">Business Administration</option>
-                </select>
+                <div class="g-col-12 g-col-md-6">
+                    <label for="studiengang">Degree Program:</label>
+                    <select id="studiengang" name="studiengang" required> ... </select>
+                </div>
 
-                <!-- Module -->
-                <label for="modul">Module:</label>
-                <select id="modul" name="modul" required>
-                    <option value="">Select module</option>
-                    <option value="Programmieren 1">Programming 1</option>
-                    <option value="Datenbanken">Databases</option>
-                    <option value="Einführung in die Wirtschaftsinformatik">
-                        Introduction to Business Information Systems
-                    </option>
-                </select>
+                <div class="g-col-12 g-col-md-6">
+                    <label for="modul">Module:</label>
+                    <select id="modul" name="modul" required> ... </select>
+                </div>
 
-                <!-- Learning Format -->
-                <label for="lernformat">Learning Format:</label>
-                <select id="lernformat" name="lernformat" required>
-                    <option value="">Select learning format</option>
-                    <option value="Online">Online</option>
-                    <option value="Präsenz">In Person</option>
-                    <option value="Hybrid">Hybrid</option>
-                </select>
+                <div class="g-col-12 g-col-md-6">
+                    <label for="lernformat">Learning Format:</label>
+                    <select id="lernformat" name="lernformat" required> ... </select>
+                </div>
 
-                <!-- Price -->
-                <label for="preis">Price per Hour (€):</label>
-                <input type="number" id="preis" name="preis"
-                       min="0" step="0.01" placeholder="e.g. 15" required>
+                <div class="g-col-12 g-col-md-6">
+                    <label for="preis">Price per Hour (€):</label>
+                    <input type="number" id="preis" name="preis" min="0" step="0.01" placeholder="e.g. 15" required>
+                </div>
 
-                <!-- Description -->
-                <label for="beschreibung">Description:</label>
-                <textarea id="beschreibung" name="beschreibung"
-                          rows="5" placeholder="Describe your tutoring offer..."
-                          required></textarea>
+                <div class="g-col-12">
+                    <label for="beschreibung">Description:</label>
+                    <textarea id="beschreibung" name="beschreibung" rows="5" required></textarea>
+                </div>
 
-                <!-- Submit -->
-                <button type="submit">Create Offer</button>
-
+                <div class="g-col-12 g-col-md-4 g-start-md-9">
+                    <button type="submit">Create Offer</button>
+                </div>
             </form>
         </main>
     </body>
