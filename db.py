@@ -23,6 +23,17 @@ class Antwort(db.Model):
 class Kategorie(db.Model):
  id = db.Column(db.Integer, primary_key=True)
 
+
+
+
+
+
+
+
+
+
+
+ 
 #Tabellen erstellen     
 with app.app_context():
     db.create_all()
