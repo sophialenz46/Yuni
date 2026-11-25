@@ -1,23 +1,24 @@
 /* Navigationsleiste */
 nav {
     margin: 0;
-    padding: 0;
+    padding: 0.5rem 2rem;
     display: flex;
-    gap: 1.5rem;
+    gap: 0.5rem;
     background-color: #ffffff;
     align-items: center;
-    border-bottom: 2px solid #7d7d7d;
+    border-bottom: 1px solid #7d7d7d;
 }
 
 nav a {
     display: block;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 0.75rem;
     color: #7d7d7d;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 nav a:hover {
-    background-color: #7d7d7d;
+    border-bottom: 1.2px solid #7d7d7d;
 }
 
 nav h1 {
