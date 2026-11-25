@@ -3,7 +3,8 @@
 
 <head>
     <title>{% block TITLE %}{% endblock %} - Yuni</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">   
+    {% block CSS %}{% endblock %}
 </head>
 
 <body>
@@ -17,7 +18,7 @@
     <a href="#">Mein Profil</a>
 </nav>
 <section class="content">
-    <header>{% block HEADER %} {% endblock %}</header>
+    <header>{% block HEADER %}{% endblock %}</header>
     {% block CONTENT %}{% endblock %}
 </section>
 <footer>
