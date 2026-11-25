@@ -6,17 +6,18 @@ nav {
     gap: 1.5rem;
     background-color: #ffffff;
     align-items: center;
+    border-bottom: 2px solid #7d7d7d;
 }
 
 nav a {
     display: block;
     padding: 1rem 1.5rem;
-    color: #111111;
+    color: #7d7d7d;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #7d7d7d;
 }
 
 nav h1 {
