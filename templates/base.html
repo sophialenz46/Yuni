@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang=de>
+
+<head>
+    <title>{% block TITLE %}{% endblock %} - Yuni</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+<nav>
+    <h1>Yuni</h1>
+    <a href="#">Startseite</a>
+    <a href="#">Nachhilfe suchen</a>
+    <a href="#">Nachhilfe anbieten</a>
+    <a href="#">Studien-Guides</a>
+    <a href="#">Community</a>
+    <a href="#">Mein Profil</a>
+</nav>
+<section class="content">
+    <header>{% block HEADER %} {% endblock %}</header>
+    {% block CONTENT %}{% endblock %}
+</section>
+</body>
+
+</html>
