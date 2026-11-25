@@ -1,19 +1,28 @@
 /* Navigationsleiste */
-nav ul {
-    list-style: none;
+nav {
     margin: 0;
     padding: 0;
     display: flex;
     gap: 1.5rem;
-    background-color: rgb(255, 235, 235);
+    background-color: #ffffff;
+    align-items: center;
 }
 
-nav li a {
+nav a {
     display: block;
     padding: 1rem 1.5rem;
-    color: #000000;
+    color: #111111;
+    text-decoration: none;
 }
 
-nav li a:hover {
+nav a:hover {
     background-color: #555;
+}
+
+nav h1 {
+    font-size: x-large; 
+    font-weight: bold;
+    color: #1a1f2e;
+    margin: 0;
+    flex: auto; 
 }
