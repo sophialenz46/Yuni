@@ -1,7 +1,15 @@
-{% block CSS %}<link rel="stylesheet" href="../static/css/style_studienguides.css">{% endblock %}
+{% extends 'base.html' %}
+
+{% block CSS %}<link rel="stylesheet" href="{{ url_for('static', filename='css/style_studienguides.css') }}">{% endblock %}
 
 {% block TITLE %}Studien-Guides{% endblock %}
 
+{% block HEADER %}
 <p>WISSEN FÜR JEDE PHASE</p>
-{% block HEADER %}Dein Studium, Schritt für Schritt{% endblock %}
+
+<h2>Dein Studium, Schritt für Schritt</h2>
+
 <p>Orientierung, Checklisten und Tipps für alle wichtigen Studienphasen.</p>
+{% endblock %}
+
+ {% block CONTENT %} test {% endblock %}
