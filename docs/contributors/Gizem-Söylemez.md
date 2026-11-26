@@ -34,11 +34,16 @@ Mir ist weiterhin bewusst, dass ich, sofern ich zur Erstellung dieser Arbeit KI-
 ---
 ## Vertical Feature Ownership
 
-[First, briefly describe the vertical feature(s) that you owned.
+I owned the __Study Guides and Personal Area feature__(study guides, profile page, favorites, my offers)
+
+My responsibilities included the tables __guide__ and __favorit__, the study guides page with guide view, PDF download and checklists, the heart component for saving offers, posts and groups as favorites, the profile page with the favorites lost and the "My offers" section (hide, show and delete own offers only) and the guides API. 
+
+### Step-by-step walkthrough
+will be added once the feature is fully implemented.
 
 Next, provide a **step-by-step walkthrough** of owned vertical feature(s) that examiner can follow in app. Ensure this matches actually implemented functionality.
 
-**In addition**, supply ample proof of ownership, primarily through exemplary git commit traces. For every vertical feature you owned, maintain a table like this.]
+## Proof of ownership 
 
 | Activities | Proof, e.g., git commits | Sources used |
 | :-- | :-- | :-- |
@@ -52,7 +57,7 @@ Next, provide a **step-by-step walkthrough** of owned vertical feature(s) that e
 
 ## Portfolio Ownership
 
-[Indicate your [Portfolio Ownership](https://hwrberlin.github.io/fswd/assessment.html#vertical-feature-and-portfolio-ownership). Usually, it will be sufficicent to just write something like: "I owned Portfolio **B** in our **4-person** team."
+I owned Portfolio **C** in our **4-person** team. 
 
 **In addition**, supply ample proof of ownership, primarily through work diary entries, git commit traces, and other useful artifacts. Maintain a table like this.]
 
