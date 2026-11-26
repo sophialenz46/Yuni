@@ -61,15 +61,18 @@ I owned Portfolio **C** in our **4-person** team.
 
 **In addition**, supply ample proof of ownership, primarily through work diary entries, git commit traces, and other useful artifacts. Maintain a table like this.]
 
-| Portfolio Task | Proof |
-| :-- | :-- |
-| **Discovery Process** | |
-| Plan discovery activities | [Discovery Plan](../product-discovery/material/02-up/.todo) |
-| Maintain discovery evidence | *01.11.:* I reminded everybody to upload their discovery evidence |
-| | *05.11.:* I checked all uploads for completeness |
-**API** | |
-| Integrate API behavior | [74a6b7](https://github.com/hwrberlin/fswd/commit/74a6b7) |
-| | |
+| Portfolio Task | Concrete Tasks at Yuni | Proof |
+| :-- | :-- |:--
+| **User Experience** |||
+|Maintain the central user journey | Ensure that all vertical features form one coherent flow: start page, registration and login, welcome page, tutoring search, study guides and profile. ||
+|Integrate navigation and page structure | Provide a shared base template (base.html) with navigation and footer, make all pages extend it and keep page headers consistent.|9e96476, 475e679, 6086b5e, 7d85b19|
+|Integrate forms and feedback|Ensure consistent labels, success and error messages and empty states in all forms and lists.||
+|Maintain UI terminology| Ensure one term per concept in app and documentation (e.g "Studien-Guides", informal "du", German page language).
+||
+**Design + Code**|||
+|Enforce software-design boundaries|Ensure compliance with the mandatory structure: no JavaScript except Bootstraps's, only Flask, Jinja2 and SQLite.||
+|Integrate cross-cutting code conventions|Agree on shared conventions: naming of route functions, consistent CSS units, static files via url_for, @login_required for access control, 404 for unknown IDs.||
+|Monitor code integration|Keep main runnable while all members commit directly to main; detect and resolve any (merge-) conflicts.|_**18.11:**_ I proposed working rules for committing directly to main in our team meeting: 1. pull before starting work, 2. announce changes to shared files (app.py, db.py, requirements.txt, base.html, style.css) beforehand and confirm once pushed, 3. start the app and check that all pages load before every push, 4. always keep commit messages clear and understandable.|
 | | |
 
 ---
