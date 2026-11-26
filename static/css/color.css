@@ -18,4 +18,7 @@
 
 /*Unser Türkis/Teal - Box auf der Guides-Seite, Etiketten, generell alle grünen Akzente.*/
 --color-accent2: rgb(23,153,153);
+
+/*Unser Rosa, aber in etwas heller, z.B. für den Hintergrund der Angebotskarten bei "Nachhilfe suchen".*/
+--color-accent1-light: rgb(235,202,202)
 }
