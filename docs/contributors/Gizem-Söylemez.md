@@ -34,22 +34,20 @@ Mir ist weiterhin bewusst, dass ich, sofern ich zur Erstellung dieser Arbeit KI-
 ---
 ## Vertical Feature Ownership
 
-I owned the __Study Guides and Personal Area feature__(study guides, profile page, favorites, my offers)
+I owned the __Study Guides and Personal Area feature__ (study guides, profile page, favorites, my offers)
 
-My responsibilities included the tables __guide__ and __favorit__, the study guides page with guide view, PDF download and checklists, the heart component for saving offers, posts and groups as favorites, the profile page with the favorites lost and the "My offers" section (hide, show and delete own offers only) and the guides API. 
+My responsibilities included the tables __guide__ and __favorit__, the study guides page with guide view, PDF download and checklists, the heart component for saving offers, posts and groups as favorites, the profile page with the favorites list and the "My offers" section (hide, show and delete own offers only) and the guides API. 
 
 ### Step-by-step walkthrough
 will be added once the feature is fully implemented.
 
-Next, provide a **step-by-step walkthrough** of owned vertical feature(s) that examiner can follow in app. Ensure this matches actually implemented functionality.
-
-## Proof of ownership 
+### Proof of ownership 
 
 | Activities | Proof, e.g., git commits | Sources used |
 | :-- | :-- | :-- |
-| [Design Challenge research] | [Research traces](../product-discovery/01-design-challenge.md#raw-materia) | See left |
-| [Refactor to use Flask Blueprints] | [d816e4](https://github.com/hwrberlin/fswd/commit/d816e4), [75a6c1](https://github.com/hwrberlin/fswd/commit/75a6c1) | [Flask Documentation](https://flask.palletsprojects.com/en/stable/blueprints/#the-concept-of-blueprints) |
-|  |  |  |
+|Add route /guides for the study guides page |[730b30b]|Flask Notebook 5.1|
+|Create study guides page Studienguides.html bases on base.html with page jeader| [53af4db], [b48106d]|fwd-intro 4.1-4.2|
+|Implement guide cards with HTML and CSS| in process |  |
 |  |  |  |
 |  |  |  |
 
@@ -59,20 +57,16 @@ Next, provide a **step-by-step walkthrough** of owned vertical feature(s) that e
 
 I owned Portfolio **C** in our **4-person** team. 
 
-**In addition**, supply ample proof of ownership, primarily through work diary entries, git commit traces, and other useful artifacts. Maintain a table like this.]
-
 | Portfolio Task | Concrete Tasks at Yuni | Proof |
-| :-- | :-- |:--
+| :-- | :-- |:-- |
 | **User Experience** |||
 |Maintain the central user journey | Ensure that all vertical features form one coherent flow: start page, registration and login, welcome page, tutoring search, study guides and profile. ||
 |Integrate navigation and page structure | Provide a shared base template (base.html) with navigation and footer, make all pages extend it and keep page headers consistent.|9e96476, 475e679, 6086b5e, 7d85b19|
 |Integrate forms and feedback|Ensure consistent labels, success and error messages and empty states in all forms and lists.||
-|Maintain UI terminology| Ensure one term per concept in app and documentation (e.g "Studien-Guides", informal "du", German page language).
-||
+|Maintain UI terminology| Ensure one term per concept in app and documentation (e.g "Studien-Guides", informal "du", German page language).||
 **Design + Code**|||
-|Enforce software-design boundaries|Ensure compliance with the mandatory structure: no JavaScript except Bootstraps's, only Flask, Jinja2 and SQLite.||
+|Enforce software-design boundaries|Ensure compliance with the mandatory structure: no JavaScript except Bootstrap's, only Flask, Jinja2 and SQLite.||
 |Integrate cross-cutting code conventions|Agree on shared conventions: naming of route functions, consistent CSS units, static files via url_for, @login_required for access control, 404 for unknown IDs.||
-|Monitor code integration|Keep main runnable while all members commit directly to main; detect and resolve any (merge-) conflicts.|_**18.11:**_ I proposed working rules for committing directly to main in our team meeting: 1. pull before starting work, 2. announce changes to shared files (app.py, db.py, requirements.txt, base.html, style.css) beforehand and confirm once pushed, 3. start the app and check that all pages load before every push, 4. always keep commit messages clear and understandable.|
-| | |
+|Monitor code integration|Keep main runnable while all members commit directly to main; detect and resolve any (merge-) conflicts.|_**18.11.:**_ I proposed working rules for committing directly to main in our team meeting: 1. pull before starting work, 2. announce changes to shared files (app.py, db.py, requirements.txt, base.html, style.css) beforehand and confirm once pushed, 3. start the app and check that all pages load before every push, 4. always keep commit messages clear and understandable.|
 
 ---
