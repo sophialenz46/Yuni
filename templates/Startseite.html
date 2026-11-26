@@ -1,27 +1,41 @@
-<!doctype html>
-<html lang="de">
+{% extends 'base.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <title>Yuni - Startseite</title>
-    <link rel="stylesheet" href="../static/css/style.css">
-    <link rel="stylesheet" href="../static/css/style_startseite.css">
-</head>
+{% block CSS %}<link rel="stylesheet" href="{{ url_for('static', filename='css/style_startseite.css') }}">{% endblock %}
 
-<body>
-    <header>
-        <a href="#home" class="logo">Yuni</a>
-        <nav class="Navigation">
-            <ul>
-                <li><a href="#home">Startseite</a></li>
-                <li><a href="#nachhilfe suchen">Nachhilfe suchen</a></li>
-                <li><a href="#nachhilfe anbieten">Nachhilfe anbieten</a></li>
-                <li><a href="#studienguides">Studienguides</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#profil">Mein Profil</a></li>
-            </ul>
-        </nav>
-    </header>
-</body>
+{% block TITLE %}Startseite{% endblock %}
 
-</html>
+{% block HEADER %}{% endblock %}
+
+{% block CONTENT %}
+<section class="hero">
+    <div class="hero-text">
+        <h1>Uni for you. With Yuni.<br>From students for students.</h1>
+        <p>Finde Nachhilfe für deine Module, tausche dich mit Studierenden aus und entdecke hilfreiche Guides für jede Studienphase.</p>
+        <hr>
+    </div>
+
+    <aside class="anmelde-box">
+        <a href="#registrieren" class="button">Registrieren</a>
+        <p>Um <strong>Yuni</strong> nutzen zu können, melde dich mit deiner <strong>Hochschul-Mail-Adresse</strong> an.</p>
+        <p class="oder">oder</p>
+        <a href="#anmelden" class="button">Schon registriert? Anmelden</a>
+    </aside>
+</section>
+
+<section class="funktionen">
+    <div class="karte">
+        <h3>👥 Nachhilfe finden</h3>
+        <p>Suche nach Hochschule, Studiengang, Modul und Lernformat.</p>
+    </div>
+
+    <div class="karte">
+        <h3>💡 Studien-Guides</h3>
+        <p>Hilfreiche Infos vom ersten Semester bis zur Bachelorarbeit.</p>
+    </div>
+
+    <div class="karte">
+        <h3>💬 Community</h3>
+        <p>Stelle Fragen, teile Erfahrungen und finde Lerngruppen.</p>
+    </div>
+</section>
+{% endblock %}
