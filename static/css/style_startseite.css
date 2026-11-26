@@ -1,0 +1,61 @@
+/*Text und Kasten nebeneinander*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+/*Text füllt den Rest der Zeile neben dem Kasten aus*/
+.hero-text {
+    flex: 1;
+}
+
+/*Überschrift*/
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+/*Text grau*/
+.hero-text p {
+    color: #7F7F7F;
+    line-height: 1.6;
+}
+
+/*dünne Linie*/
+.hero-text hr {
+    border: none;
+    border-top: 1px solid #7F7F7F;
+    margin-top: 2rem;
+}
+
+/*anmeldekasten*/
+.anmelde-box {
+    width: 360px;
+    background-color: #FDB8B8;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.oder {
+    font-size: 0.75rem;
+    color: #7F7F7F;
+    border-top: 1px solid #7F7F7F;
+    padding-top: 0.5rem;
+}
