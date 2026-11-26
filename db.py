@@ -23,9 +23,10 @@ class Antwort(db.Model):
 class Kategorie(db.Model):
  id = db.Column(db.Integer, primary_key=True)
 
-
-
-
+ #Tabelle Studiengang
+class Studiengang(db.Model):
+    id = db.Column(db.Integer, primary_key=True, index=True)
+    name = db.Column(db.String(200), nullable=False, unique=True)
 
 
 
