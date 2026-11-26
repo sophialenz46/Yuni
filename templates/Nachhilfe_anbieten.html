@@ -2,11 +2,9 @@
 
 {% block TITLE %}Nachhilfe anbieten{% endblock %}
 
-{% block CSS %}<link rel="stylesheet" href="../static/css/style_nachhilfeAnbieten.css"{% endblock %}  
-
-    <body>
-        <header>{% block HEADER %}<h2> Offer Tutoring </h2>{% endblock %}</header>
-        {% block CONTENT %}
+{% block CSS %}<link rel="stylesheet" href="{{ url_for('static', filename='css/style_nachhilfeAnbieten.css') }}"{% endblock %}  
+{% block HEADER %}<h2> Offer Tutoring </h2>{% endblock %}</header>
+{% block CONTENT %}
         <main>
           
             <h3>Create Your Tutoring Offer</h3>
@@ -52,6 +50,4 @@
                 </div>
             </form>
         </main>
-        {% endblock %}
-    </body>
-</html>
+{% endblock %}
