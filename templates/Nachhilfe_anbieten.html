@@ -1,29 +1,15 @@
+{% extends 'base.html' %}
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <title> Offer Tutoring </title>
-        <link rel="stylesheet" href="../static/css/style.css">
-        <link rel="stylesheet" href="../static/css/style_nachhilfe.css">
-    </head>
+{% block TITLE %}Nachhilfe anbieten{% endblock %}
+
+{% block CSS %}<link rel="stylesheet" href="../static/css/style_nachhilfeAnbieten.css"{% endblock %}  
+
     <body>
-        <header>
-    <nav class="Navigation">
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#nachhilfe suchen">Find Tutoring</a></li>
-    <li><a href="#nachhilfe anbieten">Offer Tutoring</a></li>
-    <li><a href="#studienguides">Study Guides</a></li>
-    <li><a href="#community">Community</a></li>
-    <li><a href="#profil">My Profile</a></li>
-  </ul>
-</nav>
-        <h2> Offer Tutoring </h2>
-        </header>
+        <header>{% block HEADER %}<h2> Offer Tutoring </h2>{% endblock %}</header>
+        {% block CONTENT %}
         <main>
           
             <h3>Create Your Tutoring Offer</h3>
-
             <form action="/nachhilfe/anbieten" method="POST" class="grid">
 
                 <div class="g-col-12 g-col-md-6">
@@ -66,5 +52,6 @@
                 </div>
             </form>
         </main>
+        {% endblock %}
     </body>
 </html>
