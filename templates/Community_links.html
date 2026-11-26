@@ -1,24 +1,10 @@
-<!doctype html>
-<html lang=en>
-    <head>
-        <title> links </title>
-        <link rel="stylesheet" href="../static/css/style.css">
-        <link rel="stylesheet" href="../static/css/style_community.css">
-    </head>
-    <body class="Whatsapp-Gruppen">
-        <header>
-<nav class="Navigation">
-  <ul>
-    <li><a href="#home">Startseite</a></li>
-    <li><a href="#nachhilfe suchen">Nachhilfe suchen</a></li>
-    <li><a href="#nachhilfe anbieten">Nachhilfe anbieten</a></li>
-    <li><a href="#studienguides">Studienguides</a></li>
-    <li><a href="#community">Community</a></li>
-    <li><a href="#profil">Mein Profil</a></li>
-  </ul>
-</nav>
-           <h1> Whatsapp Gruppen entdecken </h1> 
-        </header>
+{% extends 'base.html' %}
+
+{% block TITLE %}Links{% endblock %}
+
+{% block CSS %}<link rel="stylesheet" href="{{ url_for('static', filename='css/style_community.css') }}">{% endblock %}  
+{% block HEADER %}<h2> WhatsApp Gruppen entdecken </h2>{% endblock %} 
+{% block CONTENT %}  
         <main>
 <search class="Suchbegriff">
     <form action="/suche" method="get">
@@ -106,10 +92,8 @@
 </form>
 
         </main>
-        <footer>
-           <p></p>
-        </footer>
-    </body>
-</html>
+{% endblock %}
+
+
 
 
