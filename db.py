@@ -38,7 +38,7 @@ class Modul(db.Model):
     studiengang_id = db.Column(db.Integer, db.ForeignKey('studiengang.id'), nullable=False)
 
 
-#Tablle User    
+#Tabelle User    
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True, index=True)
     username = db.Column(db.String(200), nullable=False, unique=True)
