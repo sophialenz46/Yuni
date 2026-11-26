@@ -1,1 +1,21 @@
-/*Gemeinsame Farben von Yuni 
+/*Gemeinsame Farben von Yuni*/ 
+:root {
+
+/*Hintergrund von Seite und Navigation.*/
+--color-background: rgb(255,255,255);
+
+/*Haupttext, Überschriften, Logo.*/
+--color-text: rgb(0,0,50);
+
+/*Nebentext, Navigationslinks.*/
+--color-text-secondary: rgb(92,92,92,);
+
+/*Linien, Rahmen von Karten.*/
+--color-border: rgb(207, 200, 200,);
+
+/*Unser Lachsrosa - Buttons, Anmeldekasten, Hervorhebungen.*/
+--color-accent1: rgb(227,148,132,);
+
+/*Unser Türkis/Teal - Box auf der Guides-Seite, Etiketten, generell alle grünen Akzente.*/
+--color-accent2: rgb(23,153,153,);
+}
