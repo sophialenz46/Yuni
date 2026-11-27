@@ -1,3 +1,9 @@
+/*Einheitliche Schriftart ohne Serifen, später vielleicht Google Fonts? -> besprechen.*/
+body {
+    font-family: sans-serif;
+    margin: 0;  
+}
+
 /* Navigationsleiste */
 nav {
     margin: 0;
