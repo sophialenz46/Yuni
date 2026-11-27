@@ -9,12 +9,14 @@ db = SQLAlchemy()
 class Beitrag(db.Model):
     id = db.Column(db.Integer, primary_key =True)
     kategorie = db.Column(db.String(200))
-    text = db.Column(db.Text)
+    text = db.Column(db.Text, nullable=False)
+    erstellt_am = db.Column(db.DateTime, default=datetime.now)
 
 #Tabelle Antwort  
 class Antwort(db.Model):
      id = db.Column(db.Integer, primary_key=True)
-
+     text = db.Column(db.Text, nullable=False)
+     erstellt_am = db.Column(db.DateTime, nullable=False, default=datetime.now)
 
 #Tabelle Kategorie
 class Kategorie(db.Model):
