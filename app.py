@@ -10,3 +10,7 @@ def index():
 @app.route('/guides')
 def guides(): 
     return render_template('Studienguides.html')
+
+@app.route('/profile')
+def profile():
+    return render_templat('Profil.html')
