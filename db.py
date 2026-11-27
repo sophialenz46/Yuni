@@ -48,13 +48,13 @@ class User(db.Model):
     studiengang_id = db.Column(db.Integer, db.ForeignKey('studiengang.id'), nullable=False) 
     erstellt_am = db.Column(db.DateTime, nullable=False, default=datetime.now)                  
 
+#Tabelle Guide
+#class Guide(db.Model):
+#   id = db.Column(db.Integer, primary_key=True, index=True)
+#    phase = db.Column(db.String, nullable=False)
+#    titel = db.Column(db.String, nullable=False, unique = True)
+#   beschreibung = db.Column(db.String, nullable=False)
 
-
-
-
-
-
- 
 #Tabellen erstellen     
 with app.app_context():
     db.create_all()
