@@ -4,19 +4,28 @@
 
 ## Overview
 
-[Briefly describe what data your app stores and how the data model supports the platform's core functionality. In particular, explain how the two user groups and their interactions are represented.]
+Das Datenmodell von Yuni bildet die Grundlage für den Informationsaustausch und die Vernetzung von Studierenden. In der Datenbank werden Benutzerkonten, Studiengänge, Module, Kategorien, Beiträge, Antworten und Gruppenlinks gespeichert.
+
+Studierende können Fragen stellen, Informationen austauschen, auf Beiträge anderer Studierender antworten und Links zu relevanten Gruppen teilen. Dabei können sie sowohl als Informationssuchende als auch als Informationsanbieter auftreten.
+
 
 ## Entity-Relationship Diagram
 
-[Visualize your app's data model using an Entity-Relationship Diagram (ERD). Include the main entities, their relevant attributes, primary and foreign keys, and relationship cardinalities (e.g., one-to-many or many-to-many).
+Das folgende Entity-Relationship-Diagramm (ERD) visualisiert die Struktur der Datenbank und stellt die Entitäten, ihre Attribute, Primär- und Fremdschlüssel sowie die Beziehungen zwischen den Entitäten dar.
 
 ![ERD](assets/images/ERD.drawio.png)
 
 ## Entities and Relationships
 
-[Briefly explain the purpose of the main entities and how they relate to each other. Focus on aspects that aren't immediately obvious from the diagram. In particular, explain how your data model represents the two user groups, the offered products or services, and the interactions between supply and demand.
+Die **Entität User** repräsentiert die registrierten Studierenden. Da alle Studierenden sowohl Informationen suchen als auch bereitstellen können, wird im Datenmodell nicht zwischen zwei festen Benutzerrollen unterschieden.
 
-Do not simply repeat attribute definitions or relationship cardinalities already visible in the ERD.
+Die **Entitäten Beitrag und Antwort** ermöglichen den gegenseitigen Informationsaustausch. Studierende können eigene Beiträge erstellen und auf Beiträge anderer Studierender antworten.
+
+Die **Entität Kategorie** dient der thematischen Zuordnung von Beiträgen und Gruppenlinks, um das Auffinden relevanter Informationen zu erleichtern.
+
+Über die **Entität GruppenLink** können Studierende Links zu externen Gruppen bereitstellen und dadurch die Vernetzung untereinander fördern.
+
+Die **Entitäten Studiengang und Modul** bilden die akademische Struktur ab. Sie ermöglichen die Zuordnung von Studierenden und Modulen zu den jeweiligen Studiengängen.
 
 ## Related Design Decisions
 
