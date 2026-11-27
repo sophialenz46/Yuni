@@ -13,4 +13,4 @@ def guides():
 
 @app.route('/profile')
 def profile():
-    return render_templat('Profil.html')
+    return render_template('Profil.html')
