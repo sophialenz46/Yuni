@@ -47,7 +47,7 @@ Is missing
 
 | Activities | Proof, e.g., git commits | Sources used |
 | :-- | :-- | :-- |
-| Implement Community page and navigation between WhatsApp Groups and Forum |  | HTML & CSS Documentation |
+| Implement Community page and navigation between WhatsApp Groups and Forum |[248de89](https://github.com/sophialenz46/Yuni/commit/248de89e21aa75c22a98c2eb94f63812552732b9) | HTML & CSS Documentation |
 | Implement WhatsApp group overview (`GET /community/gruppen`) |  | Flask Documentation |
 | Implement WhatsApp group sharing (`GET`, `POST /community/gruppen/teilen`) |  | Flask Documentation |
 | Implement validation of WhatsApp invitation links and prevent duplicates | | Flask Documentation |
