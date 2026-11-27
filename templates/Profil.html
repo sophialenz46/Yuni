@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block CSS %}<link rel="stylesheet" href="{{ url_for('static', filename='css/style_profil.css') }}">{% endblock %}
+
+{% block TITLE %}Mein Profil{% endblock %}
+
+{% block CONTENT %}
+
+<!--Das hier ist ein Platzhalter für den Profilkopf-Bereic. -> wird später hinzugefügt von Amine.-->
+
+ <div class ="favoriten-box">
+
+ <h2> <span class="herzsymbol">&hearts;</span> Meine Favoriten &amp; gemerkte Einträge</h2>
+ <p class="leerzustand">Noch keine Favoriten hinzugefügt. Klicke bei Angeboten, Community-Beiträgen oder Gruppen auf das Herz-Symbol, um sie hier zu speichern.</p>
+
+ </div>   
+{% endblock %}
