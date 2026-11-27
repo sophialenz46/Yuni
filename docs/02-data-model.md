@@ -10,36 +10,7 @@
 
 [Visualize your app's data model using an Entity-Relationship Diagram (ERD). Include the main entities, their relevant attributes, primary and foreign keys, and relationship cardinalities (e.g., one-to-many or many-to-many).
 
-You can use [Mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) to create the diagram directly in Markdown, as illustrated by the following example. Replace this example with your own data model.]
-
-```mermaid
-erDiagram
-    direction TB
-
-    User ||--o{ Listing : publishes
-    User ||--o{ Request : submits
-    Listing ||--o{ Request : receives
-
-    User {
-        int id PK
-        string email UK
-    }
-
-    Listing {
-        int id PK
-        int publisher_id FK
-        string title
-        string description
-    }
-
-    Request {
-        int id PK
-        int listing_id FK
-        int requester_id FK
-        string status
-    }
-
-```
+![ERD](assets/images/ERD.drawio.png)
 
 ## Entities and Relationships
 
