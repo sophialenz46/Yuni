@@ -1,13 +1,9 @@
 import click
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import orm
-from app import app
 from datetime import datetime
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///yuni.sqlite'
-
 db = SQLAlchemy()
-db.init_app(app)
 
 #Tabelle Beitrag 
 class Beitrag(db.Model):
@@ -55,6 +51,8 @@ class User(db.Model):
 #    titel = db.Column(db.String, nullable=False, unique = True)
 #   beschreibung = db.Column(db.String, nullable=False)
 
-#Tabellen erstellen     
-with app.app_context():
-    db.create_all()
+
+
+#Tabellen erstellen     (muss immer ganz unten als letztes stehen!)
+#with app.app_context():
+#    db.create_all()
