@@ -59,13 +59,21 @@ class User(db.Model):
 
  
 
+
+#Tabelle Checklistenpunkt in den Guides
+#class Checklistenpunkt(db.Model):
+# id = db.Column(db.Integer, primary_key=True, index=True)
+# guide_id = db.Column(db.Integer, db.ForeignKey('guide.id'), nullable=False)
+# text = db.Column(db.String, nullable=False)
+
 #Tabelle Guide
 #class Guide(db.Model):
-#   id = db.Column(db.Integer, primary_key=True, index=True)
-#    phase = db.Column(db.String, nullable=False)
-#    titel = db.Column(db.String, nullable=False, unique = True)
-#   beschreibung = db.Column(db.String, nullable=False)
-
+#  id = db.Column(db.Integer, primary_key=True, index=True)
+#  phase = db.Column(db.String, nullable=False)
+#  titel = db.Column(db.String, nullable=False, unique = True)
+#  beschreibung = db.Column(db.String, nullable=False)
+#  checklistenpunkte = db.relationship(Checklistenpunkt, backref='guide')
+#  text = db.Column(db.String, nullable=False)
 
 #Tabellen erstellen     (muss immer ganz unten als letztes stehen!)
 #with app.app_context():
