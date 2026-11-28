@@ -34,7 +34,7 @@ class Kategorie(db.Model):
  name = db.Column(db.String(200), nullable=False, unique=True)
 
 
- #Tabelle Studiengang
+#Tabelle Studiengang
 class Studiengang(db.Model):
     id = db.Column(db.Integer, primary_key=True, index=True)
     name = db.Column(db.String(200), nullable=False, unique=True)
@@ -55,7 +55,7 @@ class User(db.Model):
     passwort_hash = db.Column(db.String(200), nullable=False) 
     hochschule = db.Column(db.String(200), nullable=False, default='HWR Berlin')
     studiengang_id = db.Column(db.Integer, db.ForeignKey('studiengang.id'), nullable=False) 
-    erstellt_am = db.Column(db.DateTime, nullable=False, default=datetime.now, nullable=False)                  
+    erstellt_am = db.Column(db.DateTime, nullable=False, default=datetime.now)                  
 
  
 
